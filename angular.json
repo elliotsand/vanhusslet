@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ws-vanhasselt"
+    }
+  },
+  "defaultProject": "ws-vanhasselt",
+  "cli": {
+    "analytics": "c66bcc6f-b013-4d7e-966d-f8f946c539e6"
+  }
 }
