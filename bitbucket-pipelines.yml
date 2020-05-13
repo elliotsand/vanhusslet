@@ -19,7 +19,7 @@ definitions:
               AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
               AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
               AWS_DEFAULT_REGION: "us-east-1"
-              S3_BUCKET: $AWS_S3_BUCKET
+              S3_BUCKET: $AWS_S3_BUCKET_TEST
               LOCAL_PATH: "dist"
               ACL: "public-read"
               DELETE_FLAG: "true"
@@ -32,7 +32,7 @@ definitions:
               AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
               AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
               AWS_DEFAULT_REGION: "us-east-1"
-              S3_BUCKET: $AWS_S3_BUCKET
+              S3_BUCKET: $AWS_S3_BUCKET_PROD
               LOCAL_PATH: "dist"
               ACL: "public-read"
               DELETE_FLAG: "true"
