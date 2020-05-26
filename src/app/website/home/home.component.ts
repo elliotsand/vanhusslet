@@ -10,6 +10,6 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    import('../../../assets/js/custom.js').then(e => console.log('External library loaded.'));
   }
-
 }
