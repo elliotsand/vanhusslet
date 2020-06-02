@@ -16,8 +16,8 @@ const appRoutes: Routes = [
     loadChildren: () => import('./historia/historia.module').then(e => e.HistoriaModule)
   },
   {
-    path        : 'cliente',
-    loadChildren: () => import('./cliente/cliente.module').then(e => e.ClienteModule)
+    path        : 'latam',
+    loadChildren: () => import('./latam/latam.module').then(e => e.LatamModule)
   },
   {
     path        : 'contacto',
