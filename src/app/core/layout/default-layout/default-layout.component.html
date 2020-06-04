@@ -1,0 +1,85 @@
+
+<div class="navbar custom-navbar" role="navigation" id="header">
+  <div class="container">
+
+    <!-- NAVBAR HEADER -->
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> </button>
+      <!-- lOGO TEXT HERE -->
+      <a routerLink="/" class="navbar-brand"><img src="/assets/images/logo.png" class="whtlogo" alt="" /> <img src="/assets/images/logo-color.png" class="logocolor" alt=""></a> </div>
+
+    <!-- NAVIGATION LINKS -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown active"><a routerLink="/">Inicio </a> </li>
+        <li><a routerLink="/historia">Biografía</a> </li>
+        <li><a routerLink="/latam">Trabajo de marca en LATAM</a></li>
+        <li><a routerLink="/socio">Infracciones de marca</a></li>
+        <li><a routerLink="/contacto">Contacto</a></li>
+        <li><span class="calltxt"><i class="fa fa-phone" aria-hidden="true"></i> 123 456 7890</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<div class="site-footer">
+  <!-- Footer Top start -->
+  <div class="footer-top-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="footer-lwf">
+            <h3 class="footer-logo"><img src="/assets/images/logo.png" alt="LawFirm"></h3>
+            <p></p>
+            <ul class="footer-contact">
+              <li><i class="fa fa-phone"></i> +1 1234 456789</li>
+              <li><i class="fa fa-envelope"></i> info@companyname.com</li>
+              <li><i class="fa fa-fax"></i> +1 123 123456</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="footer-lwf footer-menu">
+            <h3 class="footer-lwf-title">Quick Links</h3>
+            <ul>
+              <li><a routerLink="/">Inicio</a></li>
+              <li><a routerLink="/historia">Biografía </a></li>
+              <li><a routerLink="/latam">Trabajo de marca en LATAM</a></li>
+              <li><a routerLink="/socio">Infracciones de marca</a></li>
+              <li><a routerLink="/contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="footer-lwf">
+            <h3 class="footer-lwf-title">Horarios de atencion</h3>
+            <ul class="open-hours">
+              <li><span>Lun - Sab: </span> <span class="text-right"> 09:30AM to 05:30PM</span></li>
+              <li><span>Dom :</span> <span class="text-right"> Cerrado</span></li>
+            </ul>
+            <div class="newsletter">
+              <form>
+                <input type="text" placeholder="Ingresa tu correo" value="" class="news-input">
+                <button type="submit" value="" class="news-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top end -->
+
+  <!-- copyright start -->
+  <div class="footer-bottom-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-md-6">Copyright &copy; 2020 <span>VANHASSELT</span>. All Rights Reserved</div>
+        <div class="col-md-12 col-md-6 text-right">Design &amp; Development By: <a href="http://sharjeelanjum.com/" target="_blank">AltpacaStudio</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright end -->
+</div>

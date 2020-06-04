@@ -2,24 +2,24 @@
 
   	"use strict";
 
-    /*==== Loader ====*/   
-    $('.preloader').fadeOut(1000); // set duration in brackets  
+    /*==== Loader ====*/
+    $('.preloader').fadeOut(1000); // set duration in brackets
 
 
     /*==== Nav ====*/
     $('.navbar-collapse a').on('click',function(){
     	$(".navbar-collapse").collapse('hide');
-    });	
-    
+    });
+
 	/*==== Sticky ====*/
 	$("#header").sticky({topSpacing:0});
-	
+
 
     /*==== Counter ====*/
     $('.counter-item').appear(function() {
     	$('.counter-number').countTo();
     });
-	
+
 	//Text Typer
 	var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -77,11 +77,11 @@
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
-	
-   	
+
+
 	/*==== Testimonials ====*/
-	$(document).ready(function() { 
-	$(".testimonialsList").owlCarousel({ 		  
+	$(document).ready(function() {
+	$(".testimonialsList").owlCarousel({
 	   loop:true,
 		margin:0,
 		nav:false,
@@ -103,15 +103,15 @@
 				loop:true
 			}
 		}
-	  
-	  
-	}); 
+
+
 	});
-	
-	
+	});
+
+
 	/*==== Blog ====*/
-	$(document).ready(function() { 
-	$(".blogGrid").owlCarousel({ 		  
+	$(document).ready(function() {
+	$(".blogGrid").owlCarousel({
 	   loop:true,
 		margin:30,
 		nav:false,
@@ -133,15 +133,15 @@
 				loop:true
 			}
 		}
-	  
-	  
-	}); 
+
+
 	});
-		
-		
+	});
+
+
 	/*==== Clients Logo ====*/
-	$(document).ready(function() { 
-	$(".owl-clients").owlCarousel({ 		  
+	$(document).ready(function() {
+	$(".owl-clients").owlCarousel({
 	   loop:true,
 		margin:30,
 		nav:false,
@@ -163,37 +163,9 @@
 				loop:true
 			}
 		}
-	  
-	  
-	}); 
-	});
-	
 
-    /*==== Smoothscroll ====*/    
-	$('#home a, .custom-navbar a').on('click', function(event) {
-		var $anchor = $(this);
-		  $('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top - 49
-		}, 1000);
-		  event.preventDefault();
+
 	});
-	
-	/* ==== Revolution Slider ==== */
-	if($('.tp-banner').length > 0){
-		$('.tp-banner').show().revolution({
-			delay:6000,
-			startheight:750,
-			startwidth: 1170,
-			hideThumbs: 1000,
-			navigationType: 'none',
-			touchenabled: 'on',
-			onHoverStop: 'on',
-			navOffsetHorizontal: 0,
-			navOffsetVertical: 0,
-			dottedOverlay: 'none',
-			fullWidth: 'on'
-		});
-	}
-	
-	
+	});
+
 })(jQuery);

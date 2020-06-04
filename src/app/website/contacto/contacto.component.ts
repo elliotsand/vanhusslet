@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Injector, OnInit } from '@angular/core';
+import { RoutedViewModelComponent }    from '../../core/routed-ViewModel.component';
 
 @Component({
   selector: 'app-contacto',
   templateUrl: './contacto.component.html',
   styleUrls: ['./contacto.component.scss']
 })
-export class ContactoComponent implements OnInit {
+export class ContactoComponent extends RoutedViewModelComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private _LocalInjector: Injector) {
+    super(_LocalInjector);
   }
-
 }

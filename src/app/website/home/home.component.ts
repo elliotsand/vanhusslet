@@ -1,15 +1,39 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Injector } from '@angular/core';
+import { RoutedViewModelComponent }    from '../../core/routed-ViewModel.component';
+
+declare const $: any;
+
+class InitialVMState {}
 
 @Component({
-  selector: 'app-home',
+  selector   : 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls  : ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent extends RoutedViewModelComponent {
+  public vm: InitialVMState | any = new InitialVMState();
 
-  constructor() { }
+  constructor(private _LocalInjector: Injector) {
+    super(_LocalInjector);
+  }
 
-  ngOnInit(): void {
-    import('../../../assets/js/custom.js').then(e => console.log('External library loaded.'));
+  init () {
+    this.renderSlider();
+  }
+
+  renderSlider () {
+    $('.tp-banner').show().revolution({
+      delay              : 6000,
+      startheight        : 750,
+      startwidth         : 1170,
+      hideThumbs         : 1000,
+      navigationType     : 'none',
+      touchenabled       : 'on',
+      onHoverStop        : 'on',
+      navOffsetHorizontal: 0,
+      navOffsetVertical  : 0,
+      dottedOverlay      : 'none',
+      fullWidth          : 'on'
+    });
   }
 }
