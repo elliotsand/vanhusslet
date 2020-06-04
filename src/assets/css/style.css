@@ -38,7 +38,7 @@ body {
 	overflow-x: hidden;
 }
 /*---------------------------------------
-   Typorgraphy              
+   Typorgraphy
 -----------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,7 +90,7 @@ img {
     transition: all 0.5s ease;
 }
 /*---------------------------------------
-   Buttons               
+   Buttons
 -----------------------------------------*/
 
 .btn-success:focus {
@@ -113,7 +113,7 @@ img {
 	color: #333;
 }
 /*---------------------------------------
-   General               
+   General
 -----------------------------------------*/
 
 html {
@@ -192,7 +192,7 @@ a:hover, a:active, a:focus {
 	text-align: center;
 }
 /*---------------------------------------
-     Preloader section              
+     Preloader section
 -----------------------------------------*/
 .preloader {
 	position: fixed;
@@ -218,10 +218,6 @@ a:hover, a:active, a:focus {
 	margin: auto;
 	outline: 1px solid red;
 	filter: url(#goo);
-	-o-filter: url(#goo);
-	-ms-filter: url(#goo);
-	-webkit-filter: url(#goo);
-	-moz-filter: url(#goo);
 }
 .cssload-dot {
 	width: 0;
@@ -619,7 +615,7 @@ a:hover, a:active, a:focus {
 }
 }
 /*---------------------------------------
-     Navigation section              
+     Navigation section
 -----------------------------------------*/
 .sticky-wrapper {
 	width: 100%;
@@ -758,7 +754,7 @@ img.whtlogo{display:block;}
 
 
 /*---------------------------------------
-    Home section              
+    Home section
 -----------------------------------------*/
 
 #home {
@@ -867,7 +863,7 @@ header .header-content.video-section .pattern-overlay {
 	padding: 100px 0 100px 0px;
 	min-height: 100vh;
 	z-index: 30;
-	/* In case of overlay problems just increase the min-height*/ 
+	/* In case of overlay problems just increase the min-height*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -954,7 +950,7 @@ header .header-content.video-section .button.transparent:hover {
 	padding: 30px 0;
 }
 /*---------------------------------------
-   Counter section              
+   Counter section
 -----------------------------------------*/
 
 #counter {
@@ -1026,7 +1022,6 @@ background-color:#db3636;
 **********************************************/
 .tp-banner-container {
 	position: relative;
-z-index:;
 	padding: 0;
 	width: 100%;
 }
@@ -1339,7 +1334,7 @@ a.wit-btn {
 }
 }
 /*---------------------------------------
-    About section              
+    About section
 -----------------------------------------*/
 .about-desc h2 {
 	font-size: 36px;
@@ -1480,7 +1475,7 @@ ul.orderlist li:before {
 	background-size: cover;
 }
 /*---------------------------------------
-   			How it works         
+   			How it works
 -----------------------------------------*/
 .howitwrap {
 	position: relative;
@@ -1552,7 +1547,7 @@ ul.orderlist li:before {
 	width: 50%;
 }
 /*---------------------------------------
-   Service section              
+   Service section
 -----------------------------------------*/
 
 #practicearea .service-thumb, #service .service-thumb {
@@ -1584,7 +1579,7 @@ ul.orderlist li:before {
 
 #service .fa {
 	font-size: 24px;
-	margin-top: 22px;	
+	margin-top: 22px;
 }
 
 #service .service-thumb:hover .thumb-icon, .service-thumb:hover img {
@@ -1604,7 +1599,7 @@ ul.orderlist li:before {
 
 
 /*---------------------------------------
-   Testimonials    
+   Testimonials
 -----------------------------------------*/
 .testimonials{list-style:none;}
 .testimonials li{margin-bottom:30px;}
@@ -1615,7 +1610,7 @@ ul.orderlist li:before {
 .testimonials li .clientinfo strong{display:block; color:#db3636; font-size:18px;}
 
 /*---------------------------------------
-    Work section              
+    Work section
 -----------------------------------------*/
 .portfolio-grid {
 	margin: 10px 0 0 0;
@@ -1634,6 +1629,7 @@ ul.orderlist li:before {
 	top: 0;
 	-webkit-transition: all ease-in-out 0.4s;
 	transition: all ease-in-out 0.4s;
+  max-height: 256px;
 }
 #work .work-thumb:hover {
 	background: #ffffff;
@@ -1643,6 +1639,8 @@ ul.orderlist li:before {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	opacity: 0.8;
+  object-fit: cover;
+  object-position: center center;
 }
 #work .work-thumb:hover img {
 	 -ms-transform: scale(1.2) rotate(5deg);
@@ -1692,7 +1690,7 @@ ul.orderlist li:before {
 	line-height: 24px
 }
 /*---------------------------------------
-    Team section              
+    Team section
 -----------------------------------------*/
 #team {
 	background: #eee;
@@ -1768,7 +1766,7 @@ ul.orderlist li:before {
 .attorneyContact h3{color:#555; font-size:30px; line-height:36px; text-align:center; margin-bottom:15px;}
 
 /*---------------------------------------
-    Testimonials section              
+    Testimonials section
 -----------------------------------------*/
 #testimonials {
 	color: #fff;
@@ -1808,7 +1806,7 @@ ul.orderlist li:before {
 	color:#fff;
 }
 /*---------------------------------------
-    Prices section              
+    Prices section
 -----------------------------------------*/
 #packages {
 	padding: 70px 0;
@@ -1898,7 +1896,7 @@ ul.orderlist li:before {
 	color: #fff;
 	font-size: 16px;
 	position: relative;
-	
+
 }
 .panel-group .panel {
 	border-radius: 0;
@@ -1949,7 +1947,7 @@ ul.orderlist li:before {
 	-moz-transition: 0.3s ease-in;
 	-webkit-transition: 0.3s ease-in;
 	-ms-transition: 0.3s ease-in;
-	text-decoration: none;	
+	text-decoration: none;
 }
 .faqs h4 a.collapsed {
 	background: #fff;
@@ -2059,7 +2057,7 @@ ul.orderlist li:before {
 }
 }
 /*---------------------------------------
-    Taglinewrap section              
+    Taglinewrap section
 -----------------------------------------*/
 .taglinewrap {
 	background: #db3636;
@@ -2161,7 +2159,7 @@ ul.orderlist li:before {
 	color: #ccc;
 }
 /*---------------------------------------
-    Contact section              
+    Contact section
 -----------------------------------------*/
 #contact {
 	position: relative;
@@ -2219,10 +2217,10 @@ ul.orderlist li:before {
 	color: #ffffff;
 }
 
-.contact {	
+.contact {
 	margin-bottom: 30px;
 	border-bottom:1px solid #ddd;
-	padding-bottom:30px;	
+	padding-bottom:30px;
 	text-align:left;
 }
 .contact > span {
@@ -2269,7 +2267,7 @@ ul.orderlist li:before {
 	margin-top: 10px;
 }
 /*---------------------------------------
-    Address section              
+    Address section
 -----------------------------------------*/
 
 #address {
@@ -2313,7 +2311,7 @@ ul.orderlist li:before {
 	display: none !important;
 }
 /*---------------------------------------
-   Footer section              
+   Footer section
 -----------------------------------------*/
 
 footer {
@@ -2373,7 +2371,7 @@ footer .footer-copyright p {
 .pageTitle {
 	background: #db3636 url(../images/title-bg.jpg) no-repeat;
 	background-size: cover;
-	padding: 50px 0;
+	padding: 110px 0 50px;
 }
 .pageTitle h1 {
 	font-size:36px;
@@ -2839,11 +2837,11 @@ blockquote:after {
 
 
 /*---------------------------------------
-   Footer styles              
+   Footer styles
 -----------------------------------------*/
 .footer-top-area {
     background-color: #141414;
-    padding: 30px 0px;	
+    padding: 30px 0px;
 }
 .footer-lwf {
     padding: 20px 0px;
@@ -2947,7 +2945,7 @@ blockquote:after {
 
 
 /*---------------------------------------
-   Mobile Responsive styles              
+   Mobile Responsive styles
 -----------------------------------------*/
 @media (max-width: 1024px) {
 .custom-navbar .nav li a {
