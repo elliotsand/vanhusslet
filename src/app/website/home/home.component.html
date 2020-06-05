@@ -1,17 +1,28 @@
 <!-- Revolution slider start -->
 <div class="tp-banner-container" id="slider">
-  <div class="tp-banner" >
+  <div class="tp-banner">
     <ul>
-      <li data-slotamount="7" data-transition="fade" data-masterspeed="1000" data-saveperformance="on"> <img alt="" src="/assets/images/slider/dummy.png" data-lazyload="/assets/images/slider/slide1.jpg">
-        <div class="caption lfb large-title tp-resizeme slidertext2" data-x="right" data-y="200" data-speed="600" data-start="1000">{{ vm.content.home.slide1.text1 | CMS }}</div>
-        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="right" data-y="240" data-speed="600" data-start="1600">{{ vm.content.home.slide1.text2 | CMS }}</div>
-        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="right" data-y="300" data-speed="600" data-start="2200">{{ vm.content.home.slide1.text3 | CMS }}</div>
-        <div class="caption lfb large-title tp-resizeme sliderbtn" data-x="right" data-y="370" data-speed="600" data-start="2800"><a href="#." class="section-btn">{{ vm.content.home.contactUs | CMS }}</a></div>
+      <li data-slotamount="7" data-transition="fade" data-masterspeed="1000" data-saveperformance="on"><img alt=""
+                                                                                                            src="/assets/images/slider/dummy.png"
+                                                                                                            data-lazyload="/assets/images/slider/slide1.jpg">
+        <div class="caption lfb large-title tp-resizeme slidertext2" data-x="right" data-y="200" data-speed="600"
+             data-start="1000">{{ vm.content.home.slide1.text1 | CMS }}</div>
+        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="right" data-y="240" data-speed="600"
+             data-start="1600">{{ vm.content.home.slide1.text2 | CMS }}</div>
+        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="right" data-y="300" data-speed="600"
+             data-start="2200">{{ vm.content.home.slide1.text3 | CMS }}</div>
+        <div class="caption lfb large-title tp-resizeme sliderbtn" data-x="right" data-y="370" data-speed="600"
+             data-start="2800"><a href="#." class="section-btn">{{ vm.content.home.contactUs | CMS }}</a></div>
       </li>
-      <li data-slotamount="7" data-transition="fade" data-masterspeed="1000" data-saveperformance="on"> <img alt="" src="/assets/images/slider/dummy.png" data-lazyload="/assets/images/slider/slide2.jpg">
-        <div class="caption lfb large-title tp-resizeme slidertext2" data-x="center" data-y="280" data-speed="600" data-start="1000">Buscas la mejor opción</div>
-        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="center" data-y="310" data-speed="600" data-start="1600">en protección de marca</div>
-        <div class="caption lfb large-title tp-resizeme sliderbtn" data-x="center" data-y="400" data-speed="600" data-start="2200"><a href="#." class="section-btn">{{ vm.content.home.contactUs | CMS }}</a></div>
+      <li data-slotamount="7" data-transition="fade" data-masterspeed="1000" data-saveperformance="on"><img alt=""
+                                                                                                            src="/assets/images/slider/dummy.png"
+                                                                                                            data-lazyload="/assets/images/slider/slide2.jpg">
+        <div class="caption lfb large-title tp-resizeme slidertext2" data-x="center" data-y="280" data-speed="600"
+             data-start="1000">{{ vm.content.home.slide2.text1 | CMS }}</div>
+        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="center" data-y="310" data-speed="600"
+             data-start="1600">{{ vm.content.home.slide2.text2 | CMS }}</div>
+        <div class="caption lfb large-title tp-resizeme sliderbtn" data-x="center" data-y="400" data-speed="600"
+             data-start="2200"><a href="#." class="section-btn">{{ vm.content.home.contactUs | CMS }}</a></div>
       </li>
     </ul>
   </div>
@@ -25,10 +36,9 @@
 
     <!-- title start -->
     <div class="section-title">
-      <h3>Bienvenido a <span>Vanhasselt</span></h3>
-      <p>Juan Pedro van Hasselt es abogado graduado de la Pontificia Universidad Católica del Perú.
-        Obtuvo un Máster en Derecho de George Washington University.
-        Está admitido ante el Colegio de Abogados de Lima, Perú y ante la Barra de Abogados del Distrito de Columbia, EE.UU. de América.
+      <h3>{{ vm.content.home.about.text1 | CMS }} <span> {{ vm.content.home.about.textspan1 | CMS }}</span></h3>
+      <p>{{ vm.content.home.about.text2 | CMS }}
+
       </p>
     </div>
     <!-- title end -->
@@ -38,8 +48,8 @@
       <li>
         <div class="howbox">
           <div class="iconcircle"><i class="fa fa-university" aria-hidden="true"></i></div>
-          <h4>Protegemos tus derechos</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid ut labore</p>
+          <h4> {{ vm.content.home.howlist.howbox1.title | CMS }}</h4>
+          <p>{{ vm.content.home.howlist.howbox1.parr | CMS }}</p>
         </div>
       </li>
       <!--step 1 end-->
@@ -48,8 +58,8 @@
       <li>
         <div class="howbox">
           <div class="iconcircle"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
-          <h4>Trabajo de Marca</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid ut labore</p>
+          <h4>{{ vm.content.home.howlist.howbox2.title | CMS }}</h4>
+          <p>{{ vm.content.home.howlist.howbox2.parr | CMS }}</p>
         </div>
       </li>
       <!--step 2 end-->
@@ -58,8 +68,8 @@
       <li>
         <div class="howbox">
           <div class="iconcircle"><i class="fa fa-male" aria-hidden="true"></i></div>
-          <h4>Infracciones de marca</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid ut labore</p>
+          <h4>{{ vm.content.home.howlist.howbox3.title | CMS }}</h4>
+          <p>{{ vm.content.home.howlist.howbox3.parr | CMS }}</p>
         </div>
       </li>
       <!--step 3 end-->
@@ -75,22 +85,26 @@
       <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
         <div class="counterbox">
           <div class="counter-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-          <span class="counter-number" data-from="1" data-to="999" data-speed="1000"></span> <span class="counter-text">Clientes atendidos</span> </div>
+          <span class="counter-number" data-from="1" data-to="12" data-speed="1000"></span> <span
+          class="counter-text">{{ vm.content.home.counter.counter1.text | CMS }}</span></div>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
         <div class="counterbox">
           <div class="counter-icon"><i class="fa fa-university" aria-hidden="true"></i></div>
-          <span class="counter-number" data-from="1" data-to="1512" data-speed="2000"></span> <span class="counter-text">Operactivos exitosos</span> </div>
+          <span class="counter-number" data-from="1" data-to="12" data-speed="2000"></span> <span
+          class="counter-text">{{ vm.content.home.counter.counter2.text | CMS }}</span></div>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
         <div class="counterbox">
           <div class="counter-icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
-          <span class="counter-number" data-from="1" data-to="1756" data-speed="3000"></span> <span class="counter-text">Casos Ganados</span> </div>
+          <span class="counter-number" data-from="1" data-to="12" data-speed="3000"></span> <span
+          class="counter-text">{{ vm.content.home.counter.counter3.text | CMS }}</span></div>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
         <div class="counterbox">
           <div class="counter-icon"><i class="fa fa-trophy" aria-hidden="true"></i></div>
-          <span class="counter-number" data-from="1" data-to="101" data-speed="4000"></span> <span class="counter-text">Premios</span> </div>
+          <span class="counter-number" data-from="1" data-to="12" data-speed="4000"></span> <span
+          class="counter-text">{{ vm.content.home.counter.counter4.text | CMS }}</span></div>
       </div>
     </div>
   </div>
@@ -101,16 +115,16 @@
   <div class="container">
     <!-- Section Title -->
     <div class="section-title">
-      <h3>Áreas de <span>Prácticas</span></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam.</p>
+      <h3>{{ vm.content.home.practicearea.h3 | CMS }}<span>{{ vm.content.home.practicearea.span | CMS }}</span></h3>
+      <p>{{ vm.content.home.practicearea.parr | CMS }}</p>
     </div>
     <div class="row">
       <!-- Service 1 -->
       <div class="col-md-4 col-sm-6">
         <div class="service-thumb">
           <div class="thumb-img"><img src="/assets/images/lawyer/area1.jpeg" class="animate" alt=""></div>
-          <h4>Operativos antipirateria</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+          <h4>{{ vm.content.home.practicearea.practicearea1.h3 | CMS }}</h4>
+          <p>{{ vm.content.home.practicearea.practicearea1.parr | CMS }}</p>
         </div>
       </div>
 
@@ -118,8 +132,8 @@
       <div class="col-md-4 col-sm-6">
         <div class="service-thumb">
           <div class="thumb-img"><img src="/assets/images/lawyer/area3.jpeg" class="animate" alt=""></div>
-          <h4>Trabajo de Marca</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+          <h4>{{ vm.content.home.practicearea.practicearea2.h3 | CMS }}</h4>
+          <p>{{ vm.content.home.practicearea.practicearea2.parr | CMS }}</p>
         </div>
       </div>
 
@@ -127,8 +141,8 @@
       <div class="col-md-4 col-sm-6">
         <div class="service-thumb">
           <div class="thumb-img"><img src="/assets/images/lawyer/area5.jpeg" class="animate" alt=""></div>
-          <h4>Infracciones de Marca</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+          <h4>{{ vm.content.home.practicearea.practicearea3.h3 | CMS }}</h4>
+          <p>{{ vm.content.home.practicearea.practicearea3.parr | CMS }}</p>
         </div>
       </div>
 
@@ -144,8 +158,11 @@
       <h3>PROTECCIÓN DE MARCAS en latam</h3>
     </div>
     <div class="ctoggle">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt mauris est, in faucibus dui viverra et. Aliquam finibus vestibulum elit, at pharetra nisl congue vel. Nunc pretium posuere justo pretium fringilla. Sed volutpat risus non rhoncus convallis. Sed fermentum est at hendrerit pellentesque. Mauris nec leo euismod, sagittis mauris in, posuere est...</p>
-      <a href="#" class="readmore">Leer más <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt mauris est, in faucibus dui viverra
+        et. Aliquam finibus vestibulum elit, at pharetra nisl congue vel. Nunc pretium posuere justo pretium fringilla.
+        Sed volutpat risus non rhoncus convallis. Sed fermentum est at hendrerit pellentesque. Mauris nec leo euismod,
+        sagittis mauris in, posuere est...</p>
+      <a href="#" class="readmore">Leer más <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
   </div>
 </div>
 
@@ -154,8 +171,8 @@
   <div class="container">
     <h2>Llámanos ahora para atender tus consultas</h2>
     <h3>+1 (123) 456-7890</h3>
-    <p> </p>
-    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contáctate con nosotros</a> </div>
+    <p></p>
+    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contáctate con nosotros</a></div>
 </div>
 
 

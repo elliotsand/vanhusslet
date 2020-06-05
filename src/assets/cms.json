@@ -13,6 +13,120 @@
       "text3": {
         "es": "Somos VANHASSELT"
       }
+    },
+    "slide2": {
+      "text1": {
+        "es": "Buscas la mejor opción"
+      },
+      "text2": {
+        "es": "en protección de marca"
+      }
+    },
+    "about": {
+      "text1": {
+        "es": "Bienvenido a "
+      },
+      "textspan1": {
+        "es": "Vanhasselt"
+      },
+      "text2": {
+        "es": "Juan Pedro van Hasselt es abogado graduado de la Pontificia Universidad Católica del Perú.\n        Obtuvo un Máster en Derecho de George Washington University.\n        Está admitido ante el Colegio de Abogados de Lima, Perú y ante la Barra de Abogados del Distrito de Columbia, EE.UU. de América.\n      "
+      }
+    },
+    "howlist": {
+      "howbox1": {
+        "title": {
+          "es": "Protegemos tus derechos"
+        },
+        "parr": {
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid ut labore"
+        }
+      },
+      "howbox2": {
+        "title": {
+          "es": "Trabajo de Marca en LATAM"
+        },
+        "parr": {
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid ut labore"
+        }
+      },
+      "howbox3": {
+        "title": {
+          "es": "Infracciones de marca"
+        },
+        "parr": {
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid ut labore"
+        }
+      }
+    },
+    "counter": {
+      "counter1": {
+        "data": {
+          "es": "999"
+        },
+        "text": {
+          "es": "Clientes atendidos"
+        }
+      },
+      "counter2":{
+        "data": {
+          "es": "999"
+        },
+        "text": {
+          "es": "Operactivos exitosos"
+        }
+      },
+      "counter3": {
+        "data": {
+          "es": "999"
+        },
+        "text": {
+          "es": "Casos Ganados"
+        }
+      },
+      "counter4": {
+        "data": {
+          "es": "999"
+        },
+        "text": {
+          "es": "Premios"
+        }
+      }
+    },
+    "practicearea": {
+        "h3": {
+          "es": "Áreas de "
+        },
+        "span": {
+          "es": "Prácticas"
+        },
+        "parr": {
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam."
+        },
+      "practicearea1": {
+        "h3": {
+          "es": "Operativos antipirateria"
+        },
+        "parr": {
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque."
+        }
+      },
+      "practicearea2":{
+        "h3": {
+          "es": "Trabajo de Marca"
+        },
+        "parr": {
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque."
+        }
+      },
+      "practicearea3": {
+        "h3": {
+          "es": "Infracciones de Marca"
+        },
+        "parr": {
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque."
+        }
+      }
     }
   }
 }
