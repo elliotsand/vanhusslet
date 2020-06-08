@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-        <h1 class="page-heading">Biografía</h1>
+        <h1 class="page-heading">{{ vm.content.biographic.titlepage | CMS }}</h1>
       </div>
     </div>
   </div>
@@ -15,106 +15,9 @@
     <div class="about-desc">
       <div class="row">
         <div class="col-md-7">
-          <h3>Juan Pedro van Hasselt</h3>
-          <p>
-            es abogado graduado de la Pontificia Universidad Católica del Perú. Obtuvo un Master
-            en Derecho de George Washington University. Está admitido ante el Colegio de Abogados de Lima, Perú y ante
-            la Barra de Abogados del Distrito de Columbia, EE.UU. de América.
-            <br>
-            <br>
-            <br>
-            Su experiencia en el campo de la propiedad intelectual se inició cuando fue Gerente Legal – América Latina
-            en The Procter & Gamble Company, donde administró alrededor de 9,000 marcas en toda América Latina.
-            Posteriormente, fue nombrado Vocal del Tribunal de INDECOPI, decidiendo temas de competencia, protección al
-            consumidor y marcas. Muchas de las decisiones que emitió como Vocal hasta ahora son jurisprudencia, pudiendo
-            mostrar como ejemplo las resoluciones
-            <a href="https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_1127-1998.pdf/7a57deb3-7ada-490c-949e-d52af144188b"></a>
-            https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_1127-1998.pdf/7a57deb3-7ada-490c-949e-d52af144188b
-            y <a href="https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_305-97.pdf/dbf6748f-4311-4821-ab1c-470a3a912af4"></a> https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_305-97.pdf/dbf6748f-4311-4821-ab1c-470a3a912af4
-            (su nombre aparece al final de ambas resoluciones).
-            <br>
-            <br>
-            <br>
+          <h3>{{ vm.content.biographic.title | CMS }}</h3>
+          <p [innerHtml]=" vm.content.biographic.conten | CMS "></p>
 
-            Aparte de registros de marca, como ejemplos de la defensa de los intereses de la propiedad intelectual de
-            sus clientes, logró en Tacna que la Policía Fiscal incaute todo producto pirata que encontró. Sus
-            declaraciones en este <a
-            href="https://www.google.com/url?q=http://radiouno.pe/noticias/70699/pirateria-feria-28-julio-afectaba-operaciones-comerciales-the-north-face&sa=U&ved=0ahUKEwjdgMDDmfDcAhVrTd8KHcNyDroQFggFMAA&client=internal-uds-cse&cx=006840947787273265605:gn0cdypj8to&usg=AOvVaw08D6p1Xi32Xt0Xr0GVGA_S">hiperenlace</a>
-            .
-            <br>
-            <br>
-            <br>
-
-            Igualmente, después de meses de investigación, hizo un operativo para incautar ropa falsificada de una
-            vendedora de internet. Fue entrevistado por Noticias ATV, pues la incautación tuvo impacto nacional. Aquí el
-            hiperenlace: http://www.atv.pe/actualidad/autoridades-incautaron-mercancia-bamba-en-miraflores-358681
-
-            <br>
-            <br>
-            <br>
-            Hemos descubierto actividad de contrabando moviendo mercadería ilegal mayormente desde Perú hacia Ecuador,
-            Colombia, Argentina y Chile.
-
-            <br>
-            <br>
-            <br>
-            Además fue Director Legal y Secretario del Directorio de TIM Perú – ahora Claro); Mandatario Nacional de
-            Continental Airlines; Gerente Legal, Secretario del Directorio y Representante Alterno Bursátil ante la
-            Superintendencia del Mercado de Valores (SMV) en Corporación Aceros Arequipa S.A.
-            <br>
-            <br>
-            <br>
-          </p>
-          <p>
-            BIOGRAPHICAL INFORMATION
-            <br>
-            <br>
-            <br>
-            Juan Pedro van Hasselt is an attorney graduated from Pontificia Universidad Católica del Perú with a Master
-            of Comparative Law degree from The George Washington University. He is admitted to practice as Counsel at
-            the Lima Bar and as Special Legal Counsel by the District of Columbia Bar.
-            <br>
-            <br>
-            <br>
-            His intellectual property experience started at The Procter & Gamble Company where he was appointed as
-            Senior Counsel – Trademarks for Latin America, managing +9000 marks across the American continent.
-            <br>
-            <br>
-            <br>
-            Later, he was appointed Justice of the Intellectual Property Tribunal of the Peruvian Patent and Trademark
-            Office (INDECOPI) deciding on appeal all intellectual property matters, including decisions on a number of
-            counterfeit issues. He issued a number of resolutions and some of them are still national jurisprudence as
-            of today, for example:
-            <a
-              href="https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_387-1998.pdf/60501d9e-506f-4df5-b06e-3569b265fb4a">Link</a>
-            and
-            <a
-              href="https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_1127-1998.pdf/7a57deb3-7ada-490c-949e-d52af144188b">Link</a>
-            (his name at the end of these resolutions).
-            <br>
-            <br>
-            <br>
-            Besides trademark filing and litigation, we provide asset protection and enforcement for trademarks: as
-            example, we cracked down the operation of an internet seller of counterfeit brands; the illegal business was
-            so huge the raid was broadcasted nationally in Peru, as per the following hyperlink:
-            <a href="http://www.atv.pe/actualidad/autoridades-incautaron-mercancia-bamba-en-miraflores-358681">entrevista</a> (my statement as
-            head of the raid included). Other raids of significant importance which appeared in local news are shown in
-            these hyperlinks: <a href="https://www.youtube.com/watch?v=y8QQreqIdVE">entrevista</a> and
-            <a href="https://www.youtube.com/watch?v=kiAA6-JJAoo&t=4s">entrevista</a>
-            <br>
-            <br>
-            <br>
-            We have discovered contraband rings moving illegal merchandise mostly from Peru to Ecuador, Bolivia, Chile
-            and Argentina.
-            <br>
-            <br>
-
-            <br>
-            He was also Legal Director and Corporate Secretary of TIM Perú – now Claro); National Mandatary of
-            Continental Airlines; Chief Legal Officer, Corporate Secretary and Deputy Representative to the Securities
-            Commission (SMV) of Corporación Aceros Arequipa S.A.
-
-          </p>
         </div>
         <div class="col-md-5">
           <div class="postimg"><img src="assets/images/DSC_3198.jpg"></div>

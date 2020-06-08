@@ -22,7 +22,7 @@
         <div class="caption lfb large-title tp-resizeme slidertext1" data-x="center" data-y="310" data-speed="600"
              data-start="1600">{{ vm.content.home.slide2.text2 | CMS }}</div>
         <div class="caption lfb large-title tp-resizeme sliderbtn" data-x="center" data-y="400" data-speed="600"
-             data-start="2200"><a href="#." class="section-btn">{{ vm.content.home.contactUs | CMS }}</a></div>
+             data-start="2200"><a href="#" class="section-btn">{{ vm.content.home.contactUs | CMS }}</a></div>
       </li>
     </ul>
   </div>
@@ -155,24 +155,21 @@
 <div class="servicesbox bg1">
   <div class="container">
     <div class="section-title">
-      <h3>PROTECCIÓN DE MARCAS en latam</h3>
+      <h3>{{ vm.content.home.Tagline.h3 | CMS }}</h3>
     </div>
     <div class="ctoggle">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt mauris est, in faucibus dui viverra
-        et. Aliquam finibus vestibulum elit, at pharetra nisl congue vel. Nunc pretium posuere justo pretium fringilla.
-        Sed volutpat risus non rhoncus convallis. Sed fermentum est at hendrerit pellentesque. Mauris nec leo euismod,
-        sagittis mauris in, posuere est...</p>
-      <a href="#" class="readmore">Leer más <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+      <p>{{ vm.content.home.Tagline.ctoggle | CMS }}</p>
+      <a href="#" class="readmore">{{ vm.content.home.Tagline.readmore | CMS }}<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
   </div>
 </div>
 
 <!-- Tagline Section -->
 <div class="taglinewrap">
   <div class="container">
-    <h2>Llámanos ahora para atender tus consultas</h2>
-    <h3>+1 (123) 456-7890</h3>
-    <p></p>
-    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contáctate con nosotros</a></div>
+    <h2>{{ vm.content.home.taglinewrap.h2 | CMS }}</h2>
+    <h3>{{ vm.content.home.taglinewrap.h3 | CMS }}</h3>
+    <p>{{ vm.content.home.taglinewrap.p | CMS }}</p>
+    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> {{ vm.content.home.taglinewrap.a | CMS }}</a></div>
 </div>
 
 
