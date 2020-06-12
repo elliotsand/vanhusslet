@@ -1,10 +1,11 @@
-
 <!-- Page Title start -->
 <div class="pageTitle">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-        <h1 class="page-heading">Trabajo de marca en LATAM</h1>
+        <h1 class="page-heading">
+          {{ vm.content.latam.title | CMS }}
+          </h1>
       </div>
     </div>
   </div>
@@ -14,47 +15,17 @@
 <!-- Gallery Section -->
 <div id="work">
   <div class="container">
-    <ul class="portfolio-grid row">
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/01.jpeg" class="image-popup"> <img src="assets/images/gallery/01.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/02.jpeg" class="image-popup"> <img src="assets/images/gallery/02.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/03.jpeg" class="image-popup"> <img src="assets/images/gallery/03.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/04.jpeg" class="image-popup"> <img src="assets/images/gallery/04.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/05.jpeg" class="image-popup"> <img src="assets/images/gallery/05.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/06.jpeg" class="image-popup"> <img src="assets/images/gallery/06.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/07.jpeg" class="image-popup"> <img src="assets/images/gallery/07.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/08.jpeg" class="image-popup"> <img src="assets/images/gallery/08.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/02.jpeg" class="image-popup"> <img src="assets/images/gallery/02.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-      <li class="col-md-6 col-sm-6">
-        <!-- Gallery Thumb -->
-        <div class="work-thumb"> <a href="assets/images/gallery/01.jpeg" class="image-popup"> <img src="assets/images/gallery/01.jpeg" class="img-responsive" alt="Work"> </a> </div>
-      </li>
-    </ul>
+    <ngx-slick-carousel class="carousel portfolio-grid row"
+                        #slickModal="slick-carousel"
+                        [config]="slideConfig"
+                        (init)="slickInit($event)"
+                        (breakpoint)="breakpoint($event)"
+                        (afterChange)="afterChange($event)"
+                        (beforeChange)="beforeChange($event)">
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide work-thumb">
+        <img src="{{ slide.img }}" alt="" width="100%">
+      </div>
+    </ngx-slick-carousel>
   </div>
 </div>
+

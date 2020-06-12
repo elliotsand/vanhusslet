@@ -3,6 +3,7 @@ import { CommonModule }     from '@angular/common';
 import { RouterModule }     from '@angular/router';
 import { LatamComponent } from './latam.component';
 import {CMSModule} from '../../core/cms/cms.module';
+import {SlickCarouselModule} from 'ngx-slick-carousel';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {CMSModule} from '../../core/cms/cms.module';
         path: '',
         component: LatamComponent
       }
-    ])
+    ]),
+    SlickCarouselModule
   ]
 })
 export class LatamModule { }
