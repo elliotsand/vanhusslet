@@ -4,11 +4,11 @@ import { RoutedViewModelComponent }    from '../../core/routed-ViewModel.compone
 class InitialVMState {}
 
 @Component({
-  selector: 'app-historia',
-  templateUrl: './historia.component.html',
-  styleUrls: ['./historia.component.scss']
+  selector: 'app-biografia',
+  templateUrl: './biografia.component.html',
+  styleUrls: ['./biografia.component.scss']
 })
-export class HistoriaComponent extends RoutedViewModelComponent {
+export class BiografiaComponent extends RoutedViewModelComponent {
   public vm: InitialVMState | any = new InitialVMState();
 
   constructor(private _LocalInjector: Injector) {
