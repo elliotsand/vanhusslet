@@ -8,12 +8,12 @@ const appRoutes: Routes = [
     loadChildren: () => import('./home/home.module').then(e => e.HomeModule)
   },
   {
-    path        : 'infracciones',
-    loadChildren: () => import('./infracciones/infracciones.module').then(e => e.InfraccionesModule)
+    path        : 'socio',
+    loadChildren: () => import('./socios/socios.module').then(e => e.SociosModule)
   },
   {
-    path        : 'biografia',
-    loadChildren: () => import('./biografia/biografia.module').then(e => e.BiografiaModule)
+    path        : 'historia',
+    loadChildren: () => import('./historia/historia.module').then(e => e.HistoriaModule)
   },
   {
     path        : 'latam',

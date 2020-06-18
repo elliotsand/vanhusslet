@@ -1,22 +1,22 @@
 import { NgModule }          from '@angular/core';
 import { CommonModule }      from '@angular/common';
 import { RouterModule }      from '@angular/router';
-import { BiografiaComponent } from './biografia.component';
+import { HistoriaComponent } from './historia.component';
 import { CMSModule } from '../../core/cms/cms.module';
 
 
 
 @NgModule({
-  declarations: [BiografiaComponent],
+  declarations: [HistoriaComponent],
   imports: [
     CommonModule,
     CMSModule,
     RouterModule.forChild([
       {
         path: '',
-        component: BiografiaComponent
+        component: HistoriaComponent
       }
     ])
   ]
 })
-export class BiografiaModule { }
+export class HistoriaModule { }
