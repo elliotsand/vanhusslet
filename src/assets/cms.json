@@ -163,8 +163,23 @@
     },
     "conten": {
       "es": "Es abogado graduado de la Pontificia Universidad Católica del Perú. Obtuvo un Máster\n  en Derecho de George Washington University. Está admitido ante el Colegio de Abogados de Lima, Perú y ante   la Barra de Abogados del Distrito de Columbia, EE.UU. de América.          <br>\n  <br>\n  <br>\n  Su experiencia en el campo de la propiedad intelectual se inició cuando fue Gerente Legal – América Latina\n  en The Procter & Gamble Company, donde administró alrededor de 9,000 marcas en toda América Latina.\n  Posteriormente, fue nombrado Vocal del Tribunal de INDECOPI, decidiendo temas de competencia, protección al\n  consumidor y marcas. Muchas de las decisiones que emitió como Vocal hasta ahora son jurisprudencia, pudiendo\n  mostrar como ejemplo las resoluciones\n  <a href=\"https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_1127-1998.pdf/7a57deb3-7ada-490c-949e-d52af144188b\">enlace</a>\n  y <a href=\"https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_305-97.pdf/dbf6748f-4311-4821-ab1c-470a3a912af4\">enlace</a> \n  (su nombre aparece al final de ambas resoluciones).\n  <br>\n  <br>\n  <br>\n\n  Aparte de registros de marca, como ejemplos de la defensa de los intereses de la propiedad intelectual de\n  sus clientes, logró en Tacna que la Policía Fiscal incaute todo producto pirata que encontró. Sus\n  declaraciones en este <a\n    href=\"https://www.google.com/url?q=http://radiouno.pe/noticias/70699/pirateria-feria-28-julio-afectaba-operaciones-comerciales-the-north-face&sa=U&ved=0ahUKEwjdgMDDmfDcAhVrTd8KHcNyDroQFggFMAA&client=internal-uds-cse&cx=006840947787273265605:gn0cdypj8to&usg=AOvVaw08D6p1Xi32Xt0Xr0GVGA_S\">enlace</a>\n  .\n  <br>\n  <br>\n  <br>\n\n  Igualmente, después de meses de investigación, hizo un operativo para incautar ropa falsificada de una\n  vendedora de internet. Fue entrevistado por Noticias ATV, pues la incautación tuvo impacto nacional. Aquí el\n  <a href=\"http://www.atv.pe/actualidad/autoridades-incautaron-mercancia-bamba-en-miraflores-358681\">enlace</a> \n\n  <br>\n  <br>\n  <br>\n  Hemos descubierto actividad de contrabando moviendo mercadería ilegal mayormente desde Perú hacia Ecuador,\n  Colombia, Argentina y Chile.\n\n  <br>\n  <br>\n  <br>\n  Además fue Director Legal y Secretario del Directorio de TIM Perú – ahora Claro); Mandatario Nacional de\n  Continental Airlines; Gerente Legal, Secretario del Directorio y Representante Alterno Bursátil ante la\n  Superintendencia del Mercado de Valores (SMV) en Corporación Aceros Arequipa S.A.\n  <br>\n  <br>"
-
     }
   },
-  "header": {}
+  "header": {},
+  "footer": {},
+  "infracciones": {
+    "title": {
+      "es": "Infracciones de marca"
+    }
+  },
+  "latam": {
+    "title": {
+      "es": "Trabajo de marca en LATAM"
+    }
+  },
+  "Contacto": {
+    "title": {
+      "es": "Contacto"
+    }
+  }
 }

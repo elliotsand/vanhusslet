@@ -32,7 +32,7 @@ html, body {
 }
 body {
 	background: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica', 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	overflow-x: hidden;
@@ -42,7 +42,7 @@ body {
 -----------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', 'Roboto', sans-serif;
 }
 h1, h2, h4 {
 	font-weight: 500;
@@ -1064,7 +1064,7 @@ background-color:#db3636;
 .tp-arr-iwrapper {
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 90px;
 	font-family: 'FontAwesome';
 	line-height: 60px;
 }
@@ -1447,7 +1447,7 @@ ul.orderlist li:before {
 .servicesbox p {
 	color: #fff;
 	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', 'Roboto', sans-serif;
 	line-height: 26px;
 	font-weight: 300;
 }
@@ -1619,22 +1619,25 @@ ul.orderlist li:before {
 .portfolio-grid li {
 	padding: 5px;
 }
-#work {
+.work {
 	padding: 60px 0;
+  max-width: 1700px;
+  margin: auto;
+  position: relative;
+  width: 90%;
 }
-#work .work-thumb {
+.work .work-thumb {
 	padding: 0;
 	overflow: hidden;
 	position: relative;
 	top: 0;
 	-webkit-transition: all ease-in-out 0.4s;
 	transition: all ease-in-out 0.4s;
-  max-height: 256px;
 }
-#work .work-thumb:hover {
+.work .work-thumb:hover {
 	background: #ffffff;
 }
-#work .work-thumb img {
+.work .work-thumb img {
 	width: 100%;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -1642,7 +1645,7 @@ ul.orderlist li:before {
   object-fit: cover;
   object-position: center center;
 }
-#work .work-thumb:hover img {
+.work .work-thumb:hover img {
 	 -ms-transform: scale(1.2) rotate(5deg);
     -moz-transform: scale(1.2) rotate(5deg);
     -webkit-transform: scale(1.2) rotate(5deg);
@@ -2369,9 +2372,9 @@ footer .footer-copyright p {
 
 /*Page Title*/
 .pageTitle {
-	background: #db3636 url(../images/title-bg.jpg) no-repeat;
+	background: #000;
 	background-size: cover;
-	padding: 110px 0 50px;
+	padding: 150px 0 50px;
 }
 .pageTitle h1 {
 	font-size:36px;
@@ -3026,7 +3029,7 @@ ul.orderlist li {
 	margin-top: 30px;
 	margin-bottom: 30px
 }
-#blog, #work {
+#blog, .work {
 	padding: 50px 15px;
 }
 .taglinewrap {
