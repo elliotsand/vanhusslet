@@ -1251,6 +1251,10 @@ a.wit-btn {
 	-webkit-animation: bounce 2s infinite linear;
 	animation: bounce 2s infinite linear;
 }
+
+video.img-responsive{
+  filter: brightness(0.5);
+}
 .slidertext1 {
 	color: #fff;
 	font-size: 50px;
