@@ -70,5 +70,13 @@ export class LatamComponent extends RoutedViewModelComponent {
       navOffsetVertical: 0,
       fullWidth: 'on'
     });
+    $('.image-popup').magnificPopup({
+      type: 'image',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+      },
+    });
   }
 }

@@ -1024,6 +1024,7 @@ background-color:#db3636;
 	position: relative;
 	padding: 0;
 	width: 100%;
+  height: 100vh;
 }
 .tp-banner {
 	position: relative;
