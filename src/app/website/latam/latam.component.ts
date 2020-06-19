@@ -12,6 +12,7 @@ class InitialVMState {
   styleUrls: ['./latam.component.scss']
 })
 export class LatamComponent extends RoutedViewModelComponent {
+
   public vm: InitialVMState | any = new InitialVMState();
 
   pages = [
