@@ -3,23 +3,12 @@
     "contactUs": {
       "es": "Contáctate con nosotros"
     },
-    "slide1": {
-      "text1": {
-        "es": "Buscas la mejor opción"
-      },
-      "text2": {
-        "es": "en protección de marca"
-      },
-      "text3": {
-        "es": "Somos VANHASSELT"
-      }
-    },
     "slide2": {
       "text1": {
-        "es": "Buscas la mejor opción"
+        "es": "Cuando buscas la mejor opción"
       },
       "text2": {
-        "es": "en protección de marca"
+        "es": "Para la protección de marcas"
       }
     },
     "about": {
@@ -44,7 +33,7 @@
       },
       "howbox2": {
         "title": {
-          "es": "Trabajo de Marca en LATAM"
+          "es": "Marcas en LATAM"
         },
         "parr": {
           "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid ut labore"
@@ -167,7 +156,7 @@
   },
   "latam": {
     "title": {
-      "es": "Trabajo de marca en LATAM"
+      "es": "Marcas en LATAM"
     }
   },
   "Contacto": {
