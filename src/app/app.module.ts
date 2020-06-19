@@ -7,7 +7,6 @@ import { CMSResolver }   from './core/cms/cms-resolver.service';
 import { CoreModule }    from './core/core.module';
 import { WebsiteModule } from './website/website.module';
 
-import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 
 
@@ -16,7 +15,6 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
   imports: [
     BrowserModule,
     CoreModule,
-    SlickCarouselModule,
     RouterModule.forRoot([
       {
         path: '',
