@@ -1,7 +1,7 @@
 {
   "home": {
     "contactUs": {
-      "es": "Contactate con nosotros"
+      "es": "Contáctate con nosotros"
     },
     "slide1": {
       "text1": {
@@ -105,26 +105,18 @@
       },
       "practicearea1": {
         "h3": {
-          "es": "Operativos antipirateria"
+          "es": "Trabajo de Marca"
         },
         "parr": {
-          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque."
+          "es": "El uso no autorizado de las marcas por parte de terceros es ilegal y perjudica a sus titulares.  Las marcas son derechos de propiedad intelectual que permiten a los consumidores reconocer un producto entre los de los competidores.  Este reconocimiento por parte del consumidor es el goodwill y terceros buscan captar compradores mediante engaños ofreciendo en el mercado bienes no autorizados y que no gozan de las características que el fabricante ha desarrollado en sus productos para beneficio de su público.  Esta decepción al consumidor que es engañado y recibe bienes marcados pero de baja calidad es un atentado a los derechos económicos del titular de la marca.  Nosotros protegemos al titular de la marca contra ese perjuicio."
         }
       },
       "practicearea2": {
         "h3": {
-          "es": "Trabajo de Marca"
-        },
-        "parr": {
-          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque."
-        }
-      },
-      "practicearea3": {
-        "h3": {
           "es": "Infracciones de Marca"
         },
         "parr": {
-          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque."
+          "es": "Existe inconsistencia en múltiples jurisdicciones de la región tanto en los distintos sistemas jurídicos que protegen los derechos de marca como en la manera en que éstos son reportados al cliente.  Por ejemplo, mientras que en Brasil la acción de cancelación se presenta al quinto año desde que la marca no se ha usado, en demás países de la región la acción de cancelación es accionable a partir del tercer año.  Nuestra red de asociados a través de toda América Latina y nuestros años de experiencia litigando en todas estas jurisdicciones, nos permite advertir estratégicamente a nuestros clientes qué acciones se deben seguir de manera sistemática y coordinada."
         }
       }
     },
@@ -144,7 +136,7 @@
         "es": "Llámanos ahora para atender tus consultas"
       },
       "h3": {
-        "es": "+1 (123) 456-7890"
+        "es": "+51997326994"
       },
       "p": {
         "es": ""

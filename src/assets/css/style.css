@@ -1282,7 +1282,7 @@ video.img-responsive{
 	color: #fff !important;
 }
 .sliderbtn a:hover {
-	color: #fff !important;
+	color: #000 !important;
 }
 .tp-bannertimer {
 	display: none;
@@ -1475,7 +1475,7 @@ ul.orderlist li:before {
 	text-decoration: none;
 }
 .bg1 {
-	background: url(../images/service-bg-1.jpg) no-repeat left;
+	background: url(../images/slider/slide2.jpg) no-repeat left;
 	background-size: cover;
 }
 /*---------------------------------------

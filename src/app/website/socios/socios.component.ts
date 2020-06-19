@@ -36,5 +36,18 @@ export class SociosComponent extends RoutedViewModelComponent {
       dottedOverlay      : 'none',
       fullWidth          : 'on'
     });
+    $('.tp-video').show().revolution({
+      delay: 6000,
+      startheight: 750,
+      startwidth: 1170,
+      hideThumbs: 1000,
+      video: true,
+      navigationType: 'none',
+      touchenabled: 'on',
+      onHoverStop: 'on',
+      navOffsetHorizontal: 0,
+      navOffsetVertical: 0,
+      fullWidth: 'on'
+    });
   }
 }

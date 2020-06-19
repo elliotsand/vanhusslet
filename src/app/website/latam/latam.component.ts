@@ -61,12 +61,12 @@ export class LatamComponent extends RoutedViewModelComponent {
       startheight: 750,
       startwidth: 1170,
       hideThumbs: 1000,
+      video: true,
       navigationType: 'none',
       touchenabled: 'on',
       onHoverStop: 'on',
       navOffsetHorizontal: 0,
       navOffsetVertical: 0,
-      dottedOverlay: 'none',
       fullWidth: 'on'
     });
   }
