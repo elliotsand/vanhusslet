@@ -15,10 +15,12 @@ export class LatamComponent extends RoutedViewModelComponent {
 
   public vm: InitialVMState | any = new InitialVMState();
 
-  pages = [
+  constructor(private _LocalInjector: Injector) {
+    super(_LocalInjector);
+  }
+  Pages = [
     {img: 'assets/images/gallery/01.jpeg'},
     {img: 'assets/images/gallery/02.jpeg'},
-    {img: 'assets/images/gallery/03.jpeg'},
     {img: 'assets/images/gallery/03.jpeg'},
     {img: 'assets/images/gallery/04.jpeg'},
     {img: 'assets/images/gallery/05.jpeg'},
@@ -35,40 +37,28 @@ export class LatamComponent extends RoutedViewModelComponent {
     {img: 'assets/images/gallery/16.jpeg'}
   ];
 
-  constructor(private _LocalInjector: Injector) {
-    super(_LocalInjector);
-  }
-
   init() {
     this.renderSlider();
   }
 
   renderSlider() {
-    $('.tp-banner').show().revolution({
-      delay: 6000,
-      startheight: 750,
-      startwidth: 1170,
-      hideThumbs: 1000,
-      navigationType: 'none',
-      touchenabled: 'on',
-      onHoverStop: 'on',
-      navOffsetHorizontal: 0,
-      navOffsetVertical: 0,
-      dottedOverlay: 'none',
-      fullWidth: 'on'
-    });
-    $('.tp-video').show().revolution({
-      delay: 6000,
-      startheight: 750,
-      startwidth: 1170,
-      hideThumbs: 1000,
-      video: true,
-      navigationType: 'none',
-      touchenabled: 'on',
-      onHoverStop: 'on',
-      navOffsetHorizontal: 0,
-      navOffsetVertical: 0,
-      fullWidth: 'on'
+
+    $('.tp-five').show().owlCarousel({
+      stagePadding: 50,
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
     });
     $('.image-popup').magnificPopup({
       type: 'image',

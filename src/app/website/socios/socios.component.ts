@@ -22,32 +22,59 @@ export class SociosComponent extends RoutedViewModelComponent {
     this.renderSlider();
   }
 
-  renderSlider () {
-    $('.tp-banner').show().revolution({
-      delay              : 6000,
-      startheight        : 750,
-      startwidth         : 1170,
-      hideThumbs         : 1000,
-      navigationType     : 'none',
-      touchenabled       : 'on',
-      onHoverStop        : 'on',
-      navOffsetHorizontal: 0,
-      navOffsetVertical  : 0,
-      dottedOverlay      : 'none',
-      fullWidth          : 'on'
+  renderSlider() {
+
+    $('.tp-five').show().owlCarousel({
+      stagePadding: 50,
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
     });
-    $('.tp-video').show().revolution({
-      delay: 6000,
-      startheight: 750,
-      startwidth: 1170,
-      hideThumbs: 1000,
+    $('.tp-video').show().owlCarousel({
+      stagePadding: 50,
+      loop: true,
+      margin: 10,
       video: true,
-      navigationType: 'none',
-      touchenabled: 'on',
-      onHoverStop: 'on',
-      navOffsetHorizontal: 0,
-      navOffsetVertical: 0,
-      fullWidth: 'on'
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+    $('.image-popup').magnificPopup({
+      type: 'image',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+      },
+    });
+    $('.popup-video').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+
+      fixedContentPos: false
     });
   }
 }

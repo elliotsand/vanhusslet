@@ -1,19 +1,47 @@
 .text {
-  height: 350px;
   display: flex;
   align-items: center;
+margin: auto;
+  width: 75%;
   p {
-    margin: 30px 25px;
+    margin: 50px 25px;
     font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
   }
 }
 
-@media(max-width:768px) {
+.tp-five {
+  .slide-five {
+    img {
+      object-fit: cover;
+      object-position: center center;
+      height: 400px;
+      width: 400px;
+    }
+  }
+}
+
+.tp-video {
+  .slide-five {
+    video {
+      object-fit: cover;
+      object-position: center center;
+      height: 400px;
+      width: 400px;
+    }
+  }
+}
+
+@media(max-width: 768px) {
   .text {
     height: auto;
-    p{
+
+    p {
       margin: 15px 0px;
       font-size: 25px;
+
     }
   }
 }

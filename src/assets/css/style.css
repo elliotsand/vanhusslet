@@ -1253,9 +1253,6 @@ a.wit-btn {
 	animation: bounce 2s infinite linear;
 }
 
-video.img-responsive{
-  filter: brightness(0.5);
-}
 .slidertext1 {
 	color: #fff;
 	font-size: 50px;
@@ -1623,6 +1620,7 @@ ul.orderlist li:before {
 }
 .portfolio-grid li {
 	padding: 5px;
+  width: 50px;
 }
 .work {
 	padding: 60px 0;
