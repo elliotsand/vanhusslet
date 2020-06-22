@@ -24,7 +24,7 @@ export class HomeComponent extends RoutedViewModelComponent {
   renderSlider () {
     $('.tp-banner').show().revolution({
       delay              : 6000,
-      startheight        : '800vh',
+      startheight        : '100vh',
       startwidth         : '1170',
       autoWidth          : true,
       hideThumbs         : 1000,

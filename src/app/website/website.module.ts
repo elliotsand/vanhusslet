@@ -8,7 +8,7 @@ const appRoutes: Routes = [
     loadChildren: () => import('./home/home.module').then(e => e.HomeModule)
   },
   {
-    path        : 'socio',
+    path        : 'marcas',
     loadChildren: () => import('./socios/socios.module').then(e => e.SociosModule)
   },
   {
