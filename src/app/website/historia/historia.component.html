@@ -14,27 +14,40 @@
   <div class="container">
     <div class="about-desc">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-6">
           <h3>{{ vm.content.biographic.title | CMS }}</h3>
           <p [innerHtml]=" vm.content.biographic.conten | CMS "></p>
         </div>
-        <div class="col-md-5">
-          <div class="postimg"><img src="assets/images/DSC_3323.JPG"></div>
+        <div class="col-md-6">
+          <div class="tp-perfil">
+            <div class="postimg">
+              <a href="assets/images/DSC_3323.JPG">
+                <img src="assets/images/DSC_3323.JPG"/>
+              </a>
+            </div>
+            <div class="postimg">
+              <a href="assets/images/DSC_3198.jpg">
+                <img src="assets/images/DSC_3198.jpg"/>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-12 medios" >
+        <div class="col-md-12 medios">
           <h2>Apariciones en medios</h2>
-          <a href="http://www.atv.pe/actualidad/autoridades-incautaron-mercancia-bamba-en-miraflores-358681"> Entrevista
+          <a class="linkAtv"
+             href="http://www.atv.pe/actualidad/autoridades-incautaron-mercancia-bamba-en-miraflores-358681"> Entrevista
             con ATV</a>
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/kiAA6-JJAoo" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-          <br>
-          <iframe width="100%" height="480" src="https://youtube.com/embed/y8QQreqIdVE?t=45" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+          <div class="tp-video">
+            <iframe width="100%" height="480" src="https://www.youtube.com/embed/kiAA6-JJAoo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <iframe width="100%" height="480" src="https://youtube.com/embed/y8QQreqIdVE?t=45" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
