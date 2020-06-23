@@ -681,7 +681,7 @@ a:hover, a:active, a:focus {
 	color: #999;
 }
 .is-sticky .custom-navbar .nav li a:hover {
-	color: #333;
+	color: #fff;
 }
 .is-sticky .custom-navbar .navbar-brand {
 	color: #db3636;

@@ -68,5 +68,14 @@ export class LatamComponent extends RoutedViewModelComponent {
         preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
       },
     });
+    $('.popup-video').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+
+      fixedContentPos: false
+    });
   }
 }
