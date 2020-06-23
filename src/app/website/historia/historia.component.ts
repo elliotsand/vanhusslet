@@ -25,15 +25,15 @@ export class HistoriaComponent extends RoutedViewModelComponent {
   renderSlider() {
 
     $('.tp-perfil').show().owlCarousel({
-      stagePadding: 50,
-      loop: true,
+      stagePadding: 0,
+      loop: false,
       margin: 10,
       nav: true,
       items: 1
     });
     $('.tp-video').show().owlCarousel({
-      stagePadding: 50,
-      loop: true,
+      stagePadding: 0,
+      loop: false,
       margin: 10,
       nav: true,
       items: 1
