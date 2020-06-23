@@ -38,7 +38,7 @@ export class HistoriaComponent extends RoutedViewModelComponent {
       nav: true,
       items: 1
     });
-    $('.postimg').magnificPopup({
+    $('.image-popup').magnificPopup({
       type: 'image',
       gallery: {
         enabled: true,

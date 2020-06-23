@@ -9,7 +9,14 @@
 
   }
 }
-
+.tp-perfil {
+  img {
+    object-fit: cover;
+    object-position: center center;
+    height: 400px;
+    width: 400px;
+  }
+}
 .linkAtv{
   color: #fff;
   background-color: #db3636;

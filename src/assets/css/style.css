@@ -125,11 +125,12 @@ a {
 	-moz-transition: ease-in-out 0.3s;
 	-ms-transition: ease-in-out 0.3s;
 	color: #db3636;
-	text-decoration: none !important;
+	text-decoration: none ;
 }
 a:hover, a:active, a:focus {
 	color: #db3636;
 	outline: none;
+  text-decoration: underline;
 }
 * {
 	-webkit-box-sizing: border-box;
