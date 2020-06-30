@@ -23,7 +23,10 @@ import { WebsiteModule } from './website/website.module';
           content: CMSResolver
         }
       }
-    ])
+    ], {
+      anchorScrolling: 'enabled',
+      scrollPositionRestoration: 'top'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
