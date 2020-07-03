@@ -151,6 +151,15 @@
   "infracciones": {
     "title": {
       "es": "Infracciones de marca"
+    },
+    "apertura": {
+      "es": "El uso no autorizado de las marcas por parte de terceros es ilegal y perjudica a sus titulares.  Las marcas son derechos de propiedad intelectual que permiten a los consumidores reconocer un producto entre los de los competidores.  Este reconocimiento por parte del consumidor es el goodwill y terceros buscan captar compradores mediante engaños ofreciendo en el mercado bienes no autorizados y que no gozan de las características que el fabricante ha desarrollado en sus productos para beneficio de su público.  Esta decepción al consumidor que es engañado y recibe bienes marcados pero de baja calidad es un atentado a los derechos económicos del titular de la marca.  Nosotros protegemos al titular de la marca contra ese perjuicio."
+    },
+    "advertenciaTitle": {
+      "es": "ADVERTENCIA"
+    },
+    "advertencia": {
+      "es": "Las imágenes fueron tomadas en sitios públicos con la finalidad de informar sobre usos no autorizados de marca.  En caso de mostrar marcas supuestamente registradas, se aclara que son falsificaciones que no cuentan con la autorización de los titulares de dichas marcas (artículo 157 de la Decisión 486)."
     }
   },
   "latam": {

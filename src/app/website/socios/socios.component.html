@@ -12,6 +12,11 @@
 
 <!-- Gallery video Section -->
 <div class="work">
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <p [innerHtml]=" vm.content.infracciones.apertura | CMS "></p>
+    </div>
+  </div>
   <div class="tp-video">
 
     <div class="slide-five">
@@ -156,6 +161,12 @@
       </a>
     </div>
 
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <h3>{{ vm.content.infracciones.advertenciaTitle | CMS }}</h3>
+      <p [innerHtml]=" vm.content.infracciones.advertencia | CMS "></p>
+    </div>
   </div>
 </div>
 
