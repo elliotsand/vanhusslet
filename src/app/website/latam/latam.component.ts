@@ -37,6 +37,8 @@ export class LatamComponent extends RoutedViewModelComponent {
     {img: 'assets/images/gallery/16.jpeg'}
   ];
 
+  paises = this.vm.content.latam.paises;
+
   init() {
     this.renderSlider();
   }
