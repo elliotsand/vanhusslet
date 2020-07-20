@@ -2101,6 +2101,7 @@ ul.orderlist li:before {
 	border-radius: 4px;
 }
 .taglinewrap a:hover {
+  font-style: none;
 	background: #fff;
 	color: #000;
 }
