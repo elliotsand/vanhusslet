@@ -32,6 +32,6 @@ export class CMSService {
       return key;
     }
 
-    return key[this.currentLanguage] ? key[this.currentLanguage] : `No ${this.currentLanguage} translation for this key.`;
+    return key[this.currentLanguage] ? key[this.currentLanguage] : ``;
   }
 }

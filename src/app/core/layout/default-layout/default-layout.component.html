@@ -11,14 +11,21 @@
     <!-- NAVIGATION LINKS -->
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a routerLink="/">Inicio </a> </li>
-        <li><a routerLink="/historia">Biografía</a> </li>
-        <li><a routerLink="/latam">Marcas en LATAM</a></li>
-        <li><a routerLink="/marcas">Infracciones de marca</a></li>
-        <li><a routerLink="/contacto">Contacto</a></li>
+        <li><a routerLink="/">{{ vm.content.global.navigation.inicio | CMS}}</a> </li>
+        <li><a routerLink="/historia">{{ vm.content.global.navigation.biografia | CMS}}</a> </li>
+        <li><a routerLink="/latam">{{ vm.content.global.navigation.marcas | CMS}}</a></li>
+        <li><a routerLink="/marcas">{{ vm.content.global.navigation.infracciones | CMS}}</a></li>
+        <li><a routerLink="/contacto">{{ vm.content.global.navigation.contacto | CMS}}</a></li>
         <li><span class="calltxt"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+51997326994">+51997326994</a></span></li>
       </ul>
     </div>
+  </div>
+
+  <div class="language">
+    <span [class.selected]="_CMSService.currentLanguage==='es'"
+          (click)="changeLanguage('es')">ES</span> /
+    <span [class.selected]="_CMSService.currentLanguage==='en'"
+          (click)="changeLanguage('en')">EN</span>
   </div>
 </div>
 
@@ -44,24 +51,24 @@
           <div class="footer-lwf footer-menu">
             <h3 class="footer-lwf-title">Quick Links</h3>
             <ul>
-              <li><a routerLink="/">Inicio</a></li>
-              <li><a routerLink="/historia">Biografía </a></li>
-              <li><a routerLink="/latam">Marcas en LATAM</a></li>
-              <li><a routerLink="/marcas">Infracciones de marca</a></li>
-              <li><a routerLink="/contacto">Contacto</a></li>
+              <li><a routerLink="/">{{ vm.content.global.navigation.inicio | CMS}}</a></li>
+              <li><a routerLink="/historia">{{ vm.content.global.navigation.biografia | CMS}} </a></li>
+              <li><a routerLink="/latam">{{ vm.content.global.navigation.marcas | CMS}}</a></li>
+              <li><a routerLink="/marcas">{{ vm.content.global.navigation.infracciones | CMS}}</a></li>
+              <li><a routerLink="/contacto">{{ vm.content.global.navigation.contacto | CMS}}</a></li>
             </ul>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="footer-lwf">
-            <h3 class="footer-lwf-title">Horarios de atención</h3>
+            <h3 class="footer-lwf-title">{{ vm.content.global.horarios | CMS}}</h3>
             <ul class="open-hours">
-              <li><span>Lun - Sab: </span> <span class="text-right"> 09:00 - 18:00</span></li>
+              <li><span>{{ vm.content.global.dias | CMS}}: </span> <span class="text-right"> 09:00 - 18:00</span></li>
 
             </ul>
             <div class="newsletter">
               <form>
-                <input type="text" placeholder="Ingresa tu correo" value="" class="news-input">
+                <input type="text" [placeholder]="vm.content.global.email | CMS" value="" class="news-input">
                 <button type="submit" value="" class="news-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i></button>
               </form>
             </div>

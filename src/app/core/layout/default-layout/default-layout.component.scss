@@ -1,0 +1,19 @@
+.language {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  color: black;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-weight: bold;
+
+  span {
+    color: #acacac;
+    cursor: pointer;
+
+    &.selected {
+      color: black;
+    }
+  }
+}

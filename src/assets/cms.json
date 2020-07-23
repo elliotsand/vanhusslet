@@ -1,4 +1,28 @@
 {
+  "global": {
+    "navigation": {
+      "inicio": {
+        "es": "Inicio",
+        "en": "Home"
+      },
+      "biografía": {
+        "es": "Biografía",
+        "en": "Biography"
+      },
+      "marcas": {
+        "es": "Marcas en LATAM",
+        "en": "Latam Brands"
+      },
+      "infracciones": {
+        "es": "Infracciones de marca",
+        "en": "Trademark Infringements"
+      },
+      "contacto": {
+        "es": "Contacto",
+        "en": "Contact"
+      }
+    }
+  },
   "home": {
     "contactUs": {
       "es": "Contáctate con nosotros",
@@ -86,7 +110,7 @@
       },
       "ctoggle": {
         "es": " ",
-        "en": ""
+        "en": " "
       },
       "readmore": {
         "es": "Leer más ",
