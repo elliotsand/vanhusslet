@@ -21,6 +21,10 @@
         "es": "Contacto",
         "en": "Contact"
       }
+    },
+    "mensaje": {
+      "es": "Gracias <br> Estaremos contactándonos contigo",
+      "en": "Thanks <br> We will be contacting you"
     }
   },
   "home": {
@@ -58,7 +62,6 @@
           "es": "Protegemos tus derechos",
           "en": "We protect your rights"
         }
-
       },
       "howbox2": {
         "title": {

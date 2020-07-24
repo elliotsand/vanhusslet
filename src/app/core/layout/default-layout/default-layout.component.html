@@ -1,4 +1,9 @@
-
+<div (click)="cerrar()" class="overlay" *ngIf="_AppService.overlayActive">
+  <div class="text-overlay">
+    <div (click)="cerrar()" class="close">+</div>
+    <p [innerHtml]=" vm.content.global.mensaje | CMS "></p>
+  </div>
+</div>
 <div class="navbar custom-navbar" role="navigation" id="header">
   <div class="container">
 
@@ -69,7 +74,7 @@
             <div class="newsletter">
               <form>
                 <input type="text" [placeholder]="vm.content.global.email | CMS" value="" class="news-input">
-                <button type="submit" value="" class="news-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i></button>
+                <a (click)="mensaje()" type="submit" value="" class="news-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
               </form>
             </div>
           </div>
@@ -90,3 +95,4 @@
   </div>
   <!-- copyright end -->
 </div>
+
