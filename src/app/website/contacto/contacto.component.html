@@ -17,28 +17,28 @@
 
     <!-- SECTION TITLE -->
     <div class="section-title">
-      <h3>Contacto</h3>
+      <h3>{{ vm.content.contacto.title | CMS }}</h3>
       <p> </p>
     </div>
     <div class="row">
       <div class="col-md-4">
         <div class="contact-now">
           <div class="contact"><span><i class="fa fa-phone"></i></span>
-            <div class="information"><strong>Teléfono:</strong>
-              <p><a href="tel:+51997326994">+51997326994</a></p>
+            <div class="information"><strong>{{ vm.content.contacto.telef | CMS }}</strong>
+              <p><a href="tel:+51997326994">{{ vm.content.contacto.number | CMS }}</a></p>
             </div>
           </div>
           <!-- Contact Info -->
           <div class="contact"><span><i class="fa fa-envelope"></i></span>
-            <div class="information"><strong>Email:</strong>
-              <p><a href="mailto:vanhasselt@outlook.com.pe">vanhasselt@outlook.com.pe</a></p>
+            <div class="information"><strong>{{ vm.content.contacto.mail | CMS }}</strong>
+              <p><a href="mailto:vanhasselt@outlook.com.pe">{{ vm.content.contacto.mailname | CMS }}</a></p>
             </div>
           </div>
           <!-- Contact Info -->
           <div class="contact"><span><i class="fa fa-whatsapp"></i></span>
-            <div class="information"><strong>whatsapp</strong>
+            <div class="information"><strong>{{ vm.content.contacto.whats | CMS }}</strong>
               <p> <a
-                href="https://api.whatsapp.com/send?phone=51997326994&text=Hola%20deseo%20saber%20mas%20sobre%20la%20proteccion%20de%20mi%20marca">+51997326994</a>
+                href="https://api.whatsapp.com/send?phone=51997326994&text=Hola%20deseo%20saber%20mas%20sobre%20la%20proteccion%20de%20mi%20marca">{{ vm.content.contacto.number | CMS }}</a>
               </p>
             </div>
           </div>
@@ -50,19 +50,19 @@
         <div class="contact-form">
           <form id="contact-form" class="row">
             <div class="col-md-4 col-sm-6">
-              <input type="text" class="form-control" name="name" placeholder="Nombre">
+              <input type="text" class="form-control" name="name" [placeholder]='vm.content.contacto.nombre | CMS ' >
             </div>
             <div class="col-md-4 col-sm-6">
-              <input type="email" class="form-control" name="email" placeholder="Email">
+              <input type="email" class="form-control" name="email" [placeholder]='vm.content.contacto.email | CMS '>
             </div>
             <div class="col-md-4 col-sm-12">
-              <input type="tel" class="form-control" name="phone" placeholder="Teléfono">
+              <input type="tel" class="form-control" name="phone" [placeholder]='vm.content.contacto.telefono | CMS '>
             </div>
             <div class="col-md-12 col-sm-12">
-              <textarea class="form-control" rows="5" name="message" placeholder="Mensaje"></textarea>
+              <textarea class="form-control" rows="5" name="message" [placeholder]='vm.content.contacto.mensaje | CMS '></textarea>
             </div>
             <div class="col-md-12">
-              <button (click)="mensaje()" id="submit" type="submit" class="form-control" name="submit">Enviar mensaje</button>
+              <button (click)="mensaje()" id="submit" type="submit" class="form-control" name="submit">{{ vm.content.contacto.button | CMS }}</button>
             </div>
           </form>
         </div>

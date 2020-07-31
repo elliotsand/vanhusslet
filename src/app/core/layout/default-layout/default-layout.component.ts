@@ -23,7 +23,7 @@ export class DefaultLayoutComponent extends RoutedViewModelComponent {
           },
           marcas: {
             es: 'Marcas en LATAM',
-            en: 'Latam Brands'
+            en: ' Trademarks in LATAM'
           },
           infracciones: {
             es: 'Infracciones de marca',
