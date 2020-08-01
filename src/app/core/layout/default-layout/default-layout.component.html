@@ -1,0 +1,98 @@
+<div (click)="cerrar()" class="overlay" *ngIf="_AppService.overlayActive">
+  <div class="text-overlay">
+    <div (click)="cerrar()" class="close">+</div>
+    <p [innerHtml]=" vm.content.global.mensaje | CMS "></p>
+  </div>
+</div>
+<div class="navbar custom-navbar" role="navigation" id="header">
+  <div class="container">
+
+    <!-- NAVBAR HEADER -->
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> </button>
+      <!-- lOGO TEXT HERE -->
+      <a routerLink="/" class="navbar-brand"><img src="/assets/images/logo.png" class="whtlogo" alt="" /> <img src="/assets/images/logo-color.png" class="logocolor" alt=""></a> </div>
+
+    <!-- NAVIGATION LINKS -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/">{{ vm.content.global.navigation.inicio | CMS}}</a> </li>
+        <li><a routerLink="/historia">{{ vm.content.global.navigation.biografia | CMS}}</a> </li>
+        <li><a routerLink="/latam">{{ vm.content.global.navigation.marcas | CMS}}</a></li>
+        <li><a routerLink="/marcas">{{ vm.content.global.navigation.infracciones | CMS}}</a></li>
+        <li><a routerLink="/contacto">{{ vm.content.global.navigation.contacto | CMS}}</a></li>
+        <li><span class="calltxt"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+51997326994">+51997326994</a></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="language">
+    <span [class.selected]="_CMSService.currentLanguage==='es'"
+          (click)="changeLanguage('es')">ES</span> /
+    <span [class.selected]="_CMSService.currentLanguage==='en'"
+          (click)="changeLanguage('en')">EN</span>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<div class="site-footer">
+  <!-- Footer Top start -->
+  <div class="footer-top-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="footer-lwf">
+            <h3 class="footer-logo"><img src="/assets/images/logo.png" alt="LawFirm"></h3>
+            <p></p>
+            <ul class="footer-contact">
+              <li><i class="fa fa-phone"></i> <a href="tel:+51997326994">+51997326994</a></li>
+              <li><i class="fa fa-envelope"></i><a href="mailto:vanhasselt@outlook.com.pe">vanhasselt@outlook.com.pe</a> </li>
+              <li><i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=51997326994&text=Hola%20deseo%20saber%20mas%20sobre%20la%20proteccion%20de%20mi%20marca">+51997326994</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="footer-lwf footer-menu">
+            <h3 class="footer-lwf-title">Quick Links</h3>
+            <ul>
+              <li><a routerLink="/">{{ vm.content.global.navigation.inicio | CMS}}</a></li>
+              <li><a routerLink="/historia">{{ vm.content.global.navigation.biografia | CMS}} </a></li>
+              <li><a routerLink="/latam">{{ vm.content.global.navigation.marcas | CMS}}</a></li>
+              <li><a routerLink="/marcas">{{ vm.content.global.navigation.infracciones | CMS}}</a></li>
+              <li><a routerLink="/contacto">{{ vm.content.global.navigation.contacto | CMS}}</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="footer-lwf">
+            <h3 class="footer-lwf-title">{{ vm.content.global.horarios | CMS}}</h3>
+            <ul class="open-hours">
+              <li><span>{{ vm.content.global.dias | CMS}}: </span> <span class="text-right"> 09:00 - 18:00</span></li>
+
+            </ul>
+            <div class="newsletter">
+              <form>
+                <input type="text" [placeholder]="vm.content.global.email | CMS" value="" class="news-input">
+                <button (click)="mensaje()" type="submit" value="" class="news-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top end -->
+
+  <!-- copyright start -->
+  <div class="footer-bottom-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-md-6">Copyright &copy; 2020 <span>VANHASSELT</span>. All Rights Reserved</div>
+        <div class="col-md-12 col-md-6 text-right">Design &amp; Development By: <a href="http://sharjeelanjum.com/" target="_blank">AltpacaStudio</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright end -->
+</div>
+

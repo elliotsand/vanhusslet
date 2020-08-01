@@ -1,0 +1,23 @@
+p{
+  font-size: 20px;
+}
+
+.image-popup {
+  max-width: 400px;
+}
+.img-responsive {
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+@media(max-width: 768px) {
+  .text {
+    height: auto;
+
+    p {
+      margin: 15px 0px;
+      font-size: 25px;
+
+    }
+  }
+}

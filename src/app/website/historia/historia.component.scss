@@ -1,0 +1,37 @@
+.medios {
+  text-align: center;
+  width: 99%;
+  a{
+    font-size: 20px;
+  }
+  iframe{
+    display: block;
+    margin: 20px auto;
+
+  }
+}
+h3{
+  font-size: 35px;
+}
+p {
+  font-size: 20px;
+}
+.postimg {
+  width: 33%;
+  justify-content: center;
+}
+.tp-perfil {
+  img {
+    object-fit: cover;
+    object-position: center center;
+    height: 400px;
+    width: 400px;
+  }
+}
+.linkAtv{
+  color: #fff;
+  background-color: #db3636;
+  padding: 10px 20px ;
+  border-radius: 8px ;
+  margin: 15px 20px;
+}

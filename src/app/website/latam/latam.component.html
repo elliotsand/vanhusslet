@@ -1,0 +1,61 @@
+<!-- Page Title start -->
+<div class="pageTitle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1 class="page-heading">{{ vm.content.latam.title | CMS }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Title End -->
+
+
+<!-- Gallery  Section -->
+<div class="work">
+  <div class="row">
+
+    <div class="col-md-12 col-sm-12">
+      <p [innerHtml]=" vm.content.latam.apertura | CMS "></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <a href="assets/images/gallery/01.jpeg" class="image-popup">
+        <img
+          src="assets/images/gallery/01.jpeg" class="img-responsive" alt="Work">
+      </a>
+
+    </div>
+    <div class="col-md-6 col-sm-12">
+
+      <a href="assets/images/gallery/02.jpeg" class="image-popup">
+        <img
+          src="assets/images/gallery/02.jpeg" class="img-responsive" alt="Work">
+      </a>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <p [innerHtml]=" vm.content.latam.parraf1 | CMS "></p>
+    </div>
+    <div class="col-md-12 col-sm-12">
+      <p [innerHtml]=" vm.content.latam.parraf2 | CMS "></p>
+    </div>
+    <div class="col-md-12 col-sm-12">
+      <div *ngFor="let pais of paises">
+        <h4>{{pais.pais}}</h4>
+        <p> {{ vm.content.latam.textpaises | CMS }} <a [href]="pais.hiper">{{pais.hiper}}</a></p>
+      </div>
+      <p>
+
+        * <br>
+        <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases/2020/april/ustr-releases-annual-special-301-report-intellectual-property-protection-and-review-notorious">ustr-releases-annual-special-301-report-intellectual-property-protection-and-review-notorious</a>
+      </p>
+    </div>
+  </div>
+
+</div>

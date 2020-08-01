@@ -1,0 +1,318 @@
+{
+  "global": {
+    "navigation": {
+      "inicio": {
+        "es": "Inicio",
+        "en": "Home"
+      },
+      "biografía": {
+        "es": "Biografía",
+        "en": "Biography"
+      },
+      "marcas": {
+        "es": "Marcas en LATAM",
+        "en": " Trademarks in LATAM"
+      },
+      "infracciones": {
+        "es": "Infracciones de marca",
+        "en": "Trademark Infringements"
+      },
+      "contacto": {
+        "es": "Contacto",
+        "en": "Contact"
+      }
+    },
+    "mensaje": {
+      "es": "Gracias <br> Estaremos contactándonos contigo",
+      "en": "Thanks <br> We will be contacting you"
+    }
+  },
+  "home": {
+    "contactUs": {
+      "es": "Contáctate con nosotros",
+      "en": "Contact us"
+    },
+    "slide2": {
+      "text1": {
+        "es": "Cuando buscas la mejor opción",
+        "en": "When you are looking for the best option"
+      },
+      "text2": {
+        "es": "Para la protección de marcas",
+        "en": "\nFor trademark protection"
+      }
+    },
+    "about": {
+      "text1": {
+        "es": "Bienvenido a ",
+        "en": "welcome to"
+      },
+      "textspan1": {
+        "es": "Vanhasselt",
+        "en": "Vanhasselt"
+      },
+      "text2": {
+        "es": "Juan Pedro van Hasselt es abogado graduado de la Pontificia Universidad Católica del Perú.\n        Obtuvo un Máster en Derecho de George Washington University.\n        Está admitido ante el Colegio de Abogados de Lima, Perú y ante la Barra de Abogados del Distrito de Columbia, EE.UU. de América.\n      ",
+        "en": "Juan Pedro van Hasselt is a lawyer graduated from the Pontificia Universidad Católica del Perú.\n        He earned a Master of Laws from George Washington University.\n        He is admitted before the Bar Association of Lima, Peru and before the Bar of the District of Columbia, USA of America."
+      }
+    },
+    "howlist": {
+      "howbox1": {
+        "title": {
+          "es": "Protegemos tus derechos",
+          "en": "We protect your rights"
+        }
+      },
+      "howbox2": {
+        "title": {
+          "es": "Marcas en LATAM",
+          "en": " Trademarks in LATAM"
+        }
+      },
+      "howbox3": {
+        "title": {
+          "es": "Infracciones de marca",
+          "en": ""
+        }
+      }
+    },
+    "practicearea": {
+      "h3": {
+        "es": "Áreas de ",
+        "en": "Areas of"
+      },
+      "span": {
+        "es": "Prácticas",
+        "en": "\nPractices"
+      },
+      "practicearea1": {
+        "h3": {
+          "es": "Trabajo de Marca",
+          "en": ""
+        },
+        "parr": {
+          "es": "El uso no autorizado de las marcas por parte de terceros es ilegal y perjudica a sus titulares.  Las marcas son derechos de propiedad intelectual que permiten a los consumidores reconocer un producto entre los de los competidores.  Este reconocimiento por parte del consumidor es el goodwill y terceros buscan captar compradores mediante engaños ofreciendo en el mercado bienes no autorizados y que no gozan de las características que el fabricante ha desarrollado en sus productos para beneficio de su público.  Esta decepción al consumidor que es engañado y recibe bienes marcados pero de baja calidad es un atentado a los derechos económicos del titular de la marca.  Nosotros protegemos al titular de la marca contra ese perjuicio.",
+          "en": "The unauthorized use of the marks by third parties is illegal and harms their owners. Trademarks are intellectual property rights that allow consumers to recognize a product among those of competitors. This recognition by the consumer is goodwill and third parties seek to attract buyers through deceit by offering unauthorized goods on the market that do not enjoy the characteristics that the manufacturer has developed in its products for the benefit of its public. This disappointment to the consumer who is deceived and receives marked but low-quality goods is an attack on the economic rights of the owner of the brand. We protect the owner of the trademark against this damage."
+        }
+      },
+      "practicearea2": {
+        "h3": {
+          "es": "Infracciones de Marca",
+          "en": "Trademark Infringements"
+        },
+        "parr": {
+          "es": "Existe inconsistencia en múltiples jurisdicciones de la región tanto en los distintos sistemas jurídicos que protegen los derechos de marca como en la manera en que éstos son reportados al cliente.  Por ejemplo, mientras que en Brasil la acción de cancelación se presenta al quinto año desde que la marca no se ha usado, en demás países de la región la acción de cancelación es accionable a partir del tercer año.  Nuestra red de asociados a través de toda América Latina y nuestros años de experiencia litigando en todas estas jurisdicciones, nos permite advertir estratégicamente a nuestros clientes qué acciones se deben seguir de manera sistemática y coordinada.",
+          "en": "There is inconsistency in multiple jurisdictions in the region, both in the different legal systems that protect trademark rights and in the way in which these are reported to the client. For example, while in Brazil the cancellation action occurs in the fifth year since the brand has not been used, in other countries in the region the cancellation action is actionable from the third year. Our network of associates throughout Latin America and our years of experience litigating in all of these jurisdictions allow us to strategically advise our clients of what actions should be followed in a systematic and coordinated manner."
+        }
+      }
+    },
+    "Tagline": {
+      "h3": {
+        "es": "PROTECCIÓN DE MARCAS en latam",
+        "en": "BRAND PROTECTION in latam"
+      },
+      "ctoggle": {
+        "es": " ",
+        "en": " "
+      },
+      "readmore": {
+        "es": "Leer más ",
+        "en": "Read more"
+      }
+    },
+    "taglinewrap": {
+      "h2": {
+        "es": "Llámanos ahora para atender tus consultas",
+        "en": "Call us now to answer your questions"
+      },
+      "h3": {
+        "es": "+51997326994",
+        "en": "+51997326994"
+      },
+      "p": {
+        "es": " ",
+        "en": " "
+      },
+      "a": {
+        "es": " Contáctate con nosotros",
+        "en": "\nContact us"
+      }
+    }
+  },
+  "biographic": {
+    "titlepage": {
+      "es": "Biografía",
+      "en": "Biography"
+    },
+    "title": {
+      "es": "Juan Pedro van Hasselt",
+      "en": "Juan Pedro van Hasselt"
+    },
+    "conten": {
+      "es": "Es abogado graduado de la Pontificia Universidad Católica del Perú. Obtuvo un Máster\n  en Derecho de George Washington University. Está admitido ante el Colegio de Abogados de Lima, Perú y ante   la Barra de Abogados del Distrito de Columbia, EE.UU. de América.          <br>\n  <br>\n  Su experiencia en el campo de la propiedad intelectual se inició cuando fue Gerente Legal – América Latina\n  en The Procter & Gamble Company, donde administró alrededor de 9,000 marcas en toda América Latina.\n  Posteriormente, fue nombrado Vocal del Tribunal de INDECOPI, decidiendo temas de competencia, protección al\n  consumidor y marcas. Muchas de las decisiones que emitió como Vocal hasta ahora son jurisprudencia, pudiendo\n  mostrar como ejemplo las resoluciones\n  <a target=\"_blank\" href=\"https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_1127-1998.pdf/7a57deb3-7ada-490c-949e-d52af144188b\">(aquí primera resolución)</a>\n  y <a target=\"_blank\" href=\"https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_305-97.pdf/dbf6748f-4311-4821-ab1c-470a3a912af4\">(aquí segunda resolución)</a> \n  (su nombre aparece al final de ambas resoluciones).\n  <br>\n  <br>\n   Aparte de registros de marca, como ejemplos de la defensa de los intereses de la propiedad intelectual de\n  sus clientes, logró en Tacna que la Policía Fiscal incaute todo producto pirata que encontró. Sus\n  declaraciones en este <a\n target=\"_blank\"   href=\"https://www.google.com/url?q=http://radiouno.pe/noticias/70699/pirateria-feria-28-julio-afectaba-operaciones-comerciales-the-north-face&sa=U&ved=0ahUKEwjdgMDDmfDcAhVrTd8KHcNyDroQFggFMAA&client=internal-uds-cse&cx=006840947787273265605:gn0cdypj8to&usg=AOvVaw08D6p1Xi32Xt0Xr0GVGA_S\">enlace</a>\n  .\n  <br>\n  <br>\n   Igualmente, después de meses de investigación, hizo un operativo para incautar ropa falsificada de una\n  vendedora de internet. Fue entrevistado por Noticias ATV, pues la incautación tuvo impacto nacional. <a target=\"_blank\" href=\"http://www.atv.pe/actualidad/autoridades-incautaron-mercancia-bamba-en-miraflores-358681\">Aquí</a> \n\n  <br>\n   Hemos descubierto actividad de contrabando moviendo mercadería ilegal mayormente desde Perú hacia Ecuador,\n  Colombia, Argentina y Chile.\n\n  <br>\n  <br>\n    Además fue Director Legal y Secretario del Directorio de TIM Perú – ahora Claro); Mandatario Nacional de\n  Continental Airlines; Gerente Legal, Secretario del Directorio y Representante Alterno Bursátil ante la\n  Superintendencia del Mercado de Valores (SMV) en Corporación Aceros Arequipa S.A.\n  <br>\n  <br>",
+      "en": "He is a lawyer graduated from the Pontificia Universidad Católica del Perú. Obtained a Master\n  in Law from George Washington University. He is admitted before the Bar Association of Lima, Peru and before the Bar of the District of Columbia, USA of America. <br>\n  <br>\n  His experience in the field of intellectual property began when he was Legal Manager - Latin America\n  at The Procter & Gamble Company, where he managed over 9,000 brands across Latin America.\n  Subsequently, he was appointed Member of the INDECOPI Court, deciding issues of jurisdiction, protection of\n  consumer and brands. Many of the decisions that he issued as a Vocal until now are jurisprudence, being able\n  show resolutions as an example\n  <a target=\"_blank\" href=\"https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_1127-1998.pdf/7a57deb3-7ada-490c-949e-d52af144188b\"> (here first resolution) </a>\n  and <a target=\"_blank\" href=\"https://www.indecopi.gob.pe/documents/20182/143803/sd_RES_305-97.pdf/dbf6748f-4311-4821-ab1c-470a3a912af4\"> (here second resolution ) </a>\n  (his name appears at the end of both resolutions).\n  <br>\n  <br>\n   Aside from trademark registrations, as examples of defending the intellectual property interests of\n  his clients, he managed in Tacna that the Fiscal Police seize all pirated products that he found. Their\n  statements in this <a\n target=\"_blank\"   href=\"https://www.google.com/url?q=http://radiouno.pe/noticias/70699/pirateria-feria-28-julio-afectaba-operaciones-comerciales-the-north-face&sa=U&ved=0ahUKEwjdgMDDmfDcAhVrTd8KHcNyDroQFggFMAA&client=internal-uds-cse&cx=006840947787273265605:gn0cdypj8to&usg=AOvVaw08D6p1Xi32Xt0Xr0GVGA_S\">link</a>  .\n  <br>\n  <br>\n   Likewise, after months of investigation, he carried out an operation to seize counterfeit clothing from a\n  internet saleswoman. He was interviewed by Noticias ATV, as the seizure had a national impact. <a target=\"_blank\" href=\"http://www.atv.pe/actualidad/autoridades-incautadas-mercancia-bamba-en-miraflores-358681\"> Here </a>\n\n  <br>\n   We have discovered smuggling activity moving illegal merchandise mostly from Peru to Ecuador,\n  Colombia, Argentina and Chile.\n\n  <br>\n  <br>\n    He was also Legal Director and Secretary of the Board of TIM Perú - now Claro); National President of\n  Continental Airlines; Legal Manager, Secretary of the Board and Alternate Stock Market Representative before the\n  Stock Market Superintendency (SMV) at Corporación Aceros Arequipa S.A.\n  <br>\n  <br>"
+    }
+  },
+  "header": {},
+  "footer": {},
+  "infracciones": {
+    "title": {
+      "es": "Infracciones de marca",
+      "en": "Trademark infringements"
+    },
+    "apertura": {
+      "es": "El uso no autorizado de las marcas por parte de terceros es ilegal y perjudica a sus titulares.  Las marcas son derechos de propiedad intelectual que permiten a los consumidores reconocer un producto entre los de los competidores.  Este reconocimiento por parte del consumidor es el goodwill y terceros buscan captar compradores mediante engaños ofreciendo en el mercado bienes no autorizados y que no gozan de las características que el fabricante ha desarrollado en sus productos para beneficio de su público.  Esta decepción al consumidor que es engañado y recibe bienes marcados pero de baja calidad es un atentado a los derechos económicos del titular de la marca.  Nosotros protegemos al titular de la marca contra ese perjuicio.",
+      "en": "The unauthorized use of the marks by third parties is illegal and harms their owners. Trademarks are intellectual property rights that allow consumers to recognize a product among those of competitors. This recognition by the consumer is goodwill and third parties seek to attract buyers through deceit by offering unauthorized goods on the market that do not enjoy the characteristics that the manufacturer has developed in its products for the benefit of its public. This disappointment to the consumer who is deceived and receives marked but low-quality goods is an attack on the economic rights of the owner of the brand. We protect the owner of the trademark against this damage."
+    },
+    "advertenciaTitle": {
+      "es": "ADVERTENCIA",
+      "en": "WARNING"
+    },
+    "advertencia": {
+      "es": "Las imágenes fueron tomadas en sitios públicos con la finalidad de informar sobre usos no autorizados de marca.  En caso de mostrar marcas supuestamente registradas, se aclara que son falsificaciones que no cuentan con la autorización de los titulares de dichas marcas (artículo 157 de la Decisión 486).",
+      "en": "The images were taken in public places in order to inform about unauthorized uses of the brand. In case of showing supposedly registered trademarks, it is clarified that they are counterfeits that do not have the authorization of the owners of said trademarks (Article 157 of Decision 486)."
+    }
+  },
+  "latam": {
+    "title": {
+      "es": "Marcas en LATAM",
+      "en": " Trademarks in LATAM"
+    },
+    "apertura": {
+      "es": "Existe inconsistencia en múltiples jurisdicciones de la región tanto en los distintos sistemas jurídicos que protegen los derechos de marca como en la manera en que éstos son reportados al cliente.  Por ejemplo, mientras que en Brasil y en Uruguay la acción de cancelación se presenta al quinto año desde que la marca no se ha usado, en demás países de la región la acción de cancelación es accionable a partir del tercer año.  Nuestra red de asociados a través de toda América Latina y nuestros años de experiencia litigando en todas estas jurisdicciones, nos permite advertir estratégicamente a nuestros clientes qué acciones se deben seguir de manera sistemática y coordinada.\n",
+      "en": "There is inconsistency in multiple jurisdictions in the region, both in the different legal systems that protect trademark rights and in the way in which these are reported to the client. For example, while in Brazil and Uruguay the cancellation action is presented in the fifth year since the brand has not been used, in other countries in the region the cancellation action is actionable from the third year. Our network of associates throughout Latin America and our years of experience litigating in all of these jurisdictions allow us to strategically advise our clients of what actions should be followed in a systematic and coordinated manner."
+    },
+    "parraf1": {
+      "es": "Para brindar algo de perspectiva al nivel de piratería de marcas a lo largo de América Latina, citamos el Infome Especial 301 del año 2020 (el <a target=\"_blank\" href=\"https://ustr.gov/sites/default/files/2020_Special_301_Review_Hearing_Transcript.pdf\">Informe</a>)  , que es el resultado de una revisión annual del estado de la protección de la propiedad intelectual y su cumplimiento por parte de los socios comerciales de los Estados Unidos de América a través del mundo, que efectúa la Oficina del Representante de Comercio de los Estados Unidos (USTR) conforme a lo establecido en la Sección 182 del Acto de Comercio de 1974, y su modificación por el Acto de Comercio Comercial y de Competitividad de 1988, el Acto de los Acuerdos de la Ronda de Uruguay, y el Acto de Facilitación del Comercio y Cumplimiento del Comercio de 2015 (19 U.S.C. § 2242). \n \nLa Oficina del Representante de Comercio de los Estados Unidos (USTR) tiene la responsabilidad de la preparación de este Informe, incluyendo a los Departamentos y agencies del Estado; Tesoro; Justicia; Comercio, incluyendo la Administración Internacional del Comerio y la Oficina de Marcas y Patentes; incluyendo Aduanas y Protección de Fronteras, Inmigración and Cumplimiento de Aduanas, y el Centro de Coordinación Nacional de Derechos de la Propiedad Intelectual; y la Agencia para el Desarrollo Internacional de los Estados Unidos de América.  El USTR también reconoce los aportes de la Oficina del Coordinador de Cumplimiento de la Propiedad Intelectual, así como los de la Oficina de Derechos de Autor de  los Estados Unidos de América.</br> </br> \nPara preparar este Informe, se solicitó información sustancial a las Embajadas de los Estados Unidos de América alrededor del mundo, a agencias gubernamentales los Estados Unidos de América, y a terceros de interés relacionados.  El proyecto de este Informe fue desarrollado a través del Subcomité Especial 301 del Comité del Equipo de Política de Comercio intergubernamental.  Una prioridad principal de la Administración es el usar todas las fuentes posibles de influencia para proporcionar protección y cumplimiento adecuado y efectivo a los derechos de Propiedad Intelectual (IP) de los Estados Unidos de América.  Para este fin, un objetivo clave de la política de comercio de la Administración es el asegurar que los titulares de PI los Estados Unidos de América tengan una oportunidad completa y equitativa para usar y obtener rentabilidad de su IP alrededor del mundo.\n",
+      "en": "To provide some perspective on the level of brand piracy throughout Latin America, we cite Special Report 301 of 2020 (the <a target = \"_ blank\" href = \"https://ustr.gov/sites/default/files/2020_Special_301_Review_Hearing_Transcript.pdf\"> Report </a>), which is the result of an annual review of the state of intellectual property protection and enforcement in U.S. trading partners around the world, which the Office of the United States Trade Representative (USTR) conducts pursuant to Section 182 of the Trade Act of 1974, as amended by the Omnibus Trade and Competitiveness Act of 1988, the Uruguay Round Agreements Act, and the Trade Facilitation and Trade Enforcement Act of 2015 (19 U.S.C. § 2242). .\n \n The Office of the United States Trade Representative (USTR) is responsible for the preparation of this Report, including the Departments and agencies of State; Treasury; Justice; Commerce, including the International Trade Administration and the Patent and Trademark Office; including Customs and Border Protection, Immigration and Customs Enforcement, and the National Intellectual Property Rights Coordination Center; and the United States Agency for International Development.  USTR also recognizes the contributions of the Office of the Intellectual Property Enforcement Coordinator, as well as those of the United States Copyright Office. </br> </br>\n In preparing the Report, substantial information was solicited from U.S. embassies around the world, from U.S. Government agencies, and from interested stakeholders.  The draft of this Report was developed through the Special 301 Subcommittee of the interagency Trade Policy Staff Committee.  A top trade priority for the Administration is to use all possible sources of leverage to provide adequate and effective protection and enforcement of U.S. intellectual property (IP) rights.  Toward this end, a key objective of the Administration’s trade policy is ensuring that U.S. owners of IP have a full and fair opportunity to use and profit from their IP around the globe."
+    },
+    "parraf2": {
+      "es": "El Informe Especial 301 identifica a socios comerciales que no protegen o cumplen con los derechos de PI adecuada y efectivamente o que de alguna manera deniegan el acceso a innovadores o creadores de los Estados Unidos de América que confían en la protección de sus derechos de PI.\nLos socios comerciales que actualmente presentan las preocupaciones más significativas en materia de derechos de PI son colocados en la Lista de Observación con Prioridad o en la Lista de Observación.  El USTR ha identificado a 33 países para estas listas en el Informe Especial 301:",
+      "en": "The Special 301 Report identifies trading partners that do not adequately or effectively protect and enforce intellectual property (IP) rights or otherwise deny market access to U.S. innovators and creators that rely on protection of their IP rights.\n\nTrading partners that currently present the most significant concerns regarding IP rights are placed on the Priority Watch List or Watch List.  USTR identified 33 countries for these lists in the Special 301 Report:\n\n·     Algeria, Argentina, Chile, China, India, Indonesia, Russia, Saudi Arabia, Ukraine and Venezuela are on the Priority Watch List."
+    },
+    "li1": {
+      "es": " Algeria, Argentina, Chile, China, India, Indonesia, Rusia, Arabia Saudita, Ucrania y Venezuela están en la Lista de Observación con Prioridad.\n",
+      "en": "Algeria, Argentina, Chile, China, India, Indonesia, Russia, Saudi Arabia, Ukraine and Venezuela are on the Priority Watch List."
+    },
+    "li2": {
+      "es": " Barbados, Bolivia, Brasil, Canadá, Colombia, República Dominicana, Ecuador, Egipto, Guatemala, Kuwait, Líbano, México, Paquistán, Paraguay, Perú, Rumania, Tailandia, Trinidad & Tobago, Turquía, Turkmenistán, Emiratos Árabes Unidos, Uzbekistán y Vietnam están la Lista de Observación.(*) \n",
+      "en": "Barbados, Bolivia, Brazil, Canada, Colombia, the Dominican Republic, Ecuador, Egypt, Guatemala, Kuwait, Lebanon, Mexico, Pakistan, Paraguay, Peru, Romania, Thailand, Trinidad & Tobago, Turkey, Turkmenistan, United Arab Emirates, Uzbekistan and Vietnam are the Observation List. (*)"
+    },
+    "textpaises": {
+      "es": " Hipervínculo a la Oficina de Marcas:",
+      "en": "Hyperlink to the Trademark Office:"
+    },
+    "paises": [
+      {
+        "pais": "ARGENTINA",
+        "hiper": "https://www.argentina.gob.ar/inpi"
+      },
+      {
+        "pais": "BOLIVIA",
+        "hiper": "https://www.senapi.gob.bo/"
+      },
+      {
+        "pais": "CHILE",
+        "hiper": "https://inapi.cl/"
+      },
+      {
+        "pais": "COLOMBIA",
+        "hiper": "https://www.sic.gov.co/tema/propiedad-Industrial"
+      },
+      {
+        "pais": "COSTA RICA ",
+        "hiper": "http://www.registronacional.go.cr/propiedad_industrial/index.htm"
+      },
+      {
+        "pais": "ECUADOR",
+        "hiper": "https://www.derechosintelectuales.gob.ec/"
+      },
+      {
+        "pais": "EL SALVADOR",
+        "hiper": "https://www.e.cnr.gob.sv/ServiciosOL/portada/rpi.htm"
+      },
+      {
+        "pais": "ESTADOS UNIDOS DE AMÉRICA",
+        "hiper": "http://www.uspto.gov/"
+      },
+      {
+        "pais": "GUATEMALA",
+        "hiper": "https://rpi.gob.gt/portalrpi/"
+      },
+      {
+        "pais": "HONDURAS",
+        "hiper": "http://www.ip.gob.hn/content/tramites_propiedad_intelectual"
+      },
+      {
+        "pais": "MÉXICO",
+        "hiper": "https://www.gob.mx/impi/"
+      },
+      {
+        "pais": "NICARAGUA",
+        "hiper": "https://www.mific.gob.ni/Propiedad-Intelectual"
+      },
+      {
+        "pais": "PANAMÁ",
+        "hiper": "http://www.digerpi.gob.pa/"
+      },
+      {
+        "pais": "PERÚ ",
+        "hiper": "www.indecopi.gob.pe"
+      },
+      {
+        "pais": " URUGUAY",
+        "hiper": "https://www.miem.gub.uy/marcas-y-patentes"
+      },
+      {
+        "pais": "VENEZUELA",
+        "hiper": " http://sapi.gob.ve/"
+      }
+    ]
+  },
+  "contacto": {
+    "title": {
+      "es": "Contacto",
+      "en": "Contact"
+    },
+    "telef": {
+      "es": "Teléfono:",
+      "en": "Phone:"
+    },
+    "number": {
+      "es": "+51997326994",
+      "en": "+51997326994"
+    },
+    "mail": {
+      "es": "Email:",
+      "en": "Email:"
+    },
+    "mailname": {
+      "es": "vanhasselt@outlook.com.pe",
+      "en": "vanhasselt@outlook.com.pe"
+    },
+    "whats": {
+      "es": "whatsapp",
+      "en": "whatsapp"
+    },
+    "nombre": {
+      "es": "Nombre",
+      "en": "Name"
+    },
+    "email": {
+      "es": "Email",
+      "en": "Email"
+    },
+    "telefono": {
+      "es": "Teléfono",
+      "en": "Phone"
+    },
+    "mensaje": {
+      "es": "Mensaje",
+      "en": "Message"
+    },
+    "button": {
+      "es": "Enviar mensaje",
+      "en": "Enviar mensaje"
+    }
+  }
+}
