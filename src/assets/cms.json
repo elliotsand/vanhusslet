@@ -14,8 +14,8 @@
         "en": " Trademarks in LATAM"
       },
       "infracciones": {
-        "es": "Infracciones de marca",
-        "en": "Trademark Infringements"
+        "es": "Protección de marcas de fábrica",
+        "en": "Trademark protection"
       },
       "contacto": {
         "es": "Contacto",
@@ -71,7 +71,7 @@
       },
       "howbox3": {
         "title": {
-          "es": "Infracciones de marca",
+          "es": "Protección de marcas de fábrica",
           "en": ""
         }
       }
@@ -87,22 +87,22 @@
       },
       "practicearea1": {
         "h3": {
-          "es": "Trabajo de Marca",
-          "en": ""
+          "es": "Protección de Marcas de fábrica LATAM",
+          "en": "TRADEMARK PROTECTION"
         },
         "parr": {
-          "es": "El uso no autorizado de las marcas por parte de terceros es ilegal y perjudica a sus titulares.  Las marcas son derechos de propiedad intelectual que permiten a los consumidores reconocer un producto entre los de los competidores.  Este reconocimiento por parte del consumidor es el goodwill y terceros buscan captar compradores mediante engaños ofreciendo en el mercado bienes no autorizados y que no gozan de las características que el fabricante ha desarrollado en sus productos para beneficio de su público.  Esta decepción al consumidor que es engañado y recibe bienes marcados pero de baja calidad es un atentado a los derechos económicos del titular de la marca.  Nosotros protegemos al titular de la marca contra ese perjuicio.",
+          "es": "Existe inconsistencia en múltiples jurisdicciones de la región tanto en los distintos sistemas jurídicos que protegen los derechos de marca como en la manera en que éstos son reportados al cliente. Por ejemplo, mientras que en Brasil y en Uruguay la acción de cancelación se presenta al quinto año desde que la marca no se ha usado, en demás países de la región la acción de cancelación es accionable a partir del tercer año. Nuestra red de asociados a través de toda América Latina y nuestros años de experiencia litigando en todas estas jurisdicciones, nos permite advertir estratégicamente a nuestros clientes qué acciones se deben seguir de manera sistemática y coordinada.",
           "en": "The unauthorized use of the marks by third parties is illegal and harms their owners. Trademarks are intellectual property rights that allow consumers to recognize a product among those of competitors. This recognition by the consumer is goodwill and third parties seek to attract buyers through deceit by offering unauthorized goods on the market that do not enjoy the characteristics that the manufacturer has developed in its products for the benefit of its public. This disappointment to the consumer who is deceived and receives marked but low-quality goods is an attack on the economic rights of the owner of the brand. We protect the owner of the trademark against this damage."
         }
       },
       "practicearea2": {
         "h3": {
-          "es": "Infracciones de Marca",
-          "en": "Trademark Infringements"
+          "es": "Infracciones de Marca de fábrica",
+          "en": "TRADEMARKS THROUGHOUT LATAM"
         },
         "parr": {
-          "es": "Existe inconsistencia en múltiples jurisdicciones de la región tanto en los distintos sistemas jurídicos que protegen los derechos de marca como en la manera en que éstos son reportados al cliente.  Por ejemplo, mientras que en Brasil la acción de cancelación se presenta al quinto año desde que la marca no se ha usado, en demás países de la región la acción de cancelación es accionable a partir del tercer año.  Nuestra red de asociados a través de toda América Latina y nuestros años de experiencia litigando en todas estas jurisdicciones, nos permite advertir estratégicamente a nuestros clientes qué acciones se deben seguir de manera sistemática y coordinada.",
-          "en": "There is inconsistency in multiple jurisdictions in the region, both in the different legal systems that protect trademark rights and in the way in which these are reported to the client. For example, while in Brazil the cancellation action occurs in the fifth year since the brand has not been used, in other countries in the region the cancellation action is actionable from the third year. Our network of associates throughout Latin America and our years of experience litigating in all of these jurisdictions allow us to strategically advise our clients of what actions should be followed in a systematic and coordinated manner."
+          "es": "El uso no autorizado de las marcas por parte de terceros es ilegal y perjudica a sus titulares. Las marcas son derechos de propiedad intelectual que permiten a los consumidores reconocer un producto entre los de los competidores. Este reconocimiento por parte del consumidor es el goodwill y terceros buscan captar compradores mediante engaños ofreciendo en el mercado bienes no autorizados y que no gozan de las características que el fabricante ha desarrollado en sus productos para beneficio de su público. Esta decepción al consumidor que es engañado y recibe bienes marcados pero de baja calidad es un atentado a los derechos económicos del titular de la marca. Nosotros protegemos al titular de la marca contra ese perjuicio.",
+          "en": "There are inconsistencies in multiple jurisdictions across the region related to the different legal systems protecting trademark rights and the manner in which reporting is made to the client. For example, while the cancellation action (forefeiture) in Brazil and in Uruguay can be made after the fifth year in which a trademark has not been used, in most of the other jurisdictions in the region the cancellation is actionable after the third year of non use. Our network of Associates across Latin America and our years of experience litigating in all these jurisdictions, allow us to strategically advice our clients on systematic and coordinated actions to follow."
         }
       }
     },
@@ -157,8 +157,8 @@
   "footer": {},
   "infracciones": {
     "title": {
-      "es": "Infracciones de marca",
-      "en": "Trademark infringements"
+      "es": "Protección de marcas de fábrica",
+      "en": "Trademark protection"
     },
     "apertura": {
       "es": "El uso no autorizado de las marcas por parte de terceros es ilegal y perjudica a sus titulares.  Las marcas son derechos de propiedad intelectual que permiten a los consumidores reconocer un producto entre los de los competidores.  Este reconocimiento por parte del consumidor es el goodwill y terceros buscan captar compradores mediante engaños ofreciendo en el mercado bienes no autorizados y que no gozan de las características que el fabricante ha desarrollado en sus productos para beneficio de su público.  Esta decepción al consumidor que es engañado y recibe bienes marcados pero de baja calidad es un atentado a los derechos económicos del titular de la marca.  Nosotros protegemos al titular de la marca contra ese perjuicio.",
