@@ -1624,10 +1624,11 @@ ul.orderlist li:before {
   width: 50px;
 }
 .work {
-	padding: 60px 0;
-  max-width: 1700px;
+	padding: 60px 15px;
+  max-width: 1170px;
   margin: auto;
   position: relative;
+  box-sizing: border-box;
   width: 90%;
 }
 .work .work-thumb {
