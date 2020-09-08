@@ -314,5 +314,39 @@
       "es": "Enviar mensaje",
       "en": "Enviar mensaje"
     }
+  },
+  "testimonio": {
+    "test1": {
+      "es": "“Tuve el placer de trabajar con Juan Pedro van Hasselt en el primer proyecto de expansión del mercado de EE.UU. Continental Airlines en 1995 y durante varios años desde entonces. Confiamos en Juan Pedro como nuestro abogado principal para asesorarnos y los temas que se trataron no solo fueron regulatorios sino que tratamos hasta comerciales. Fue todo un éxito para Continental y, todavía, es una operación comercial exitosa. Realmente, gran parte de nuestro éxito en Perú, lo debemos a Juan Pedro”.",
+      "en": "“I had the pleasure of working with Juan Pedro van Hasselt in the first expansion project for US Continental Airlines in 1995 and several since then. We relied on Juan Pedro as our head lawyer to advice us and the topics we covered were legal parameters and also commercials. It was a great success business operation for Continental. I truly believe we owe part of our success in Perú to Juan Pedro”.\n"
+    },
+    "autor1": {
+      "es": "United Airlines",
+      "en": "United Airlines"
+    },
+    "test2": {
+      "es": "“Tuve el placer de trabajar con Juan Pedro van Hasselt en el primer proyecto de expansión del mercado de EE.UU. Continental Airlines en 1995 y durante varios años desde entonces. Confiamos en Juan Pedro como nuestro abogado principal para asesorarnos y los temas que se trataron no solo fueron regulatorios sino que tratamos hasta comerciales. Fue todo un éxito para Continental y, todavía, es una operación comercial exitosa. Realmente, gran parte de nuestro éxito en Perú, lo debemos a Juan Pedro”.",
+      "en": "“I had the pleasure of working with Juan Pedro van Hasselt in the first expansion project for US Continental Airlines in 1995 and several since then. We relied on Juan Pedro as our head lawyer to advice us and the topics we covered were legal parameters and also commercials. It was a great success business operation for Continental. I truly believe we owe part of our success in Perú to Juan Pedro”.\n"
+    },
+    "autor2": {
+      "es": "Pelikan&G",
+      "en": "Pelikan&G"
+    },
+    "test3": {
+      "es": "“El señor van Hasselt se distinguió en Procter & Gamble por sus sólidas habilidades legales, criterio y juicio agudos y una buena comprensión de las necesidades comerciales de sus clientes y el entorno externo. A través de ello, ganó la confianza y respeto de sus gerente y colegas, incluyéndome”.",
+      "en": "“Mr. van Hasselt distinguished himself at Procter & Gamble for his strong legal skills, acute criteria and judgement and good understanding of his client business needs and external environment. Through this he earned the trust  and respect of his managers and colleagues, including myself”."
+    },
+    "autor3": {
+      "es": "P&G",
+      "en": "P&G"
+    },
+    "test4": {
+      "es": "“Los consejos de Juan Pedro son apreciados por su veracidad e integridad y Juan Pedro es muy creativo intelectualmente para encontrar las mejores soluciones para nuestros clientes. Si estás buscando un abogado confiable y amigable, podemos recomendarle a Juan Pedro”",
+      "en": "“Juan Pedro’s advices are appreciated for their accurateness and completeness and Juan Pedro is very intellectually creative to find the best solutions for our clients. If you are looking for a trustworthy and friendly attorney, we can highly recommend you Juan Pedro”.\n"
+    },
+    "autor4": {
+      "es": "Novagraaf",
+      "en": "Novagraaf"
+    }
   }
 }
