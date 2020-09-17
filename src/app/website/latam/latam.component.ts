@@ -1,5 +1,6 @@
 import {Component, Injector, OnInit} from '@angular/core';
 import {RoutedViewModelComponent} from '../../core/routed-ViewModel.component';
+import {Meta, Title} from '@angular/platform-browser';
 
 declare const $: any;
 
@@ -15,9 +16,21 @@ export class LatamComponent extends RoutedViewModelComponent {
 
   public vm: InitialVMState | any = new InitialVMState();
 
-  constructor(private _LocalInjector: Injector) {
+  constructor(private _LocalInjector: Injector,
+              private meta: Meta,
+              private titleService: Title) {
     super(_LocalInjector);
+    this.meta.addTag(
+      {name: 'description', content: 'Consulte con un especialista como Van Hasselt en propiedad intelectual\n' +
+          'quien le explicara cómo proteger el derecho intelectual de su marca en LATAM'}
+    );
+
+    this.meta.updateTag(
+      {name: 'description', content: 'Consulte con un especialista como Van Hasselt en propiedad intelectual\n' +
+          'quien le explicara cómo proteger el derecho intelectual de su marca en LATAM'},
+    );
   }
+
   Pages = [
     {img: 'assets/images/gallery/01.jpeg'},
     {img: 'assets/images/gallery/02.jpeg'},
@@ -39,8 +52,14 @@ export class LatamComponent extends RoutedViewModelComponent {
 
   paises = this.vm.content.latam.paises;
 
+  public setTitle(newTitle: string) {
+    this.titleService.setTitle(newTitle);
+  }
+
   init() {
     this.renderSlider();
+    this.setTitle('Protección de Marcas en LATAM | JP Van Hasselt');
+
   }
 
   renderSlider() {

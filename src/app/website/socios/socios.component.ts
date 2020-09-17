@@ -1,9 +1,11 @@
-import { Component, Injector } from '@angular/core';
-import { RoutedViewModelComponent }    from '../../core/routed-ViewModel.component';
+import {Component, Injector} from '@angular/core';
+import {RoutedViewModelComponent} from '../../core/routed-ViewModel.component';
+import {Meta, Title} from '@angular/platform-browser';
 
 declare const $: any;
 
-class InitialVMState {}
+class InitialVMState {
+}
 
 @Component({
   selector: 'app-socios',
@@ -14,12 +16,29 @@ export class SociosComponent extends RoutedViewModelComponent {
 
   public vm: InitialVMState | any = new InitialVMState();
 
-  constructor(private _LocalInjector: Injector) {
+  constructor(private _LocalInjector: Injector,
+              private titleService: Title,
+              private meta: Meta) {
     super(_LocalInjector);
+    this.meta.addTag(
+      {name: 'description', content: 'El uso no autorizado de las marcas por parte de terceros es ilegal y\n' +
+          'perjudica a sus titulares, las marcas son derechos de propiedad intelectual'}
+    );
+
+    this.meta.updateTag(
+      {name: 'description', content: 'El uso no autorizado de las marcas por parte de terceros es ilegal y\n' +
+          'perjudica a sus titulares, las marcas son derechos de propiedad intelectual'},
+    );
   }
 
-  init () {
+  public setTitle(newTitle: string) {
+    this.titleService.setTitle(newTitle);
+  }
+
+  init() {
     this.renderSlider();
+    this.setTitle('Protección de Marcas de Fábrica | JP Van Hasselt');
+
   }
 
   renderSlider() {

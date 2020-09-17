@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule, Title} from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { RouterModule }  from '@angular/router';
@@ -28,7 +28,7 @@ import { WebsiteModule } from './website/website.module';
       scrollPositionRestoration: 'top'
     })
   ],
-  providers: [],
+  providers: [ Title ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

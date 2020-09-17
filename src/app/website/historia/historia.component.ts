@@ -1,5 +1,6 @@
 import {Component, Injector, OnInit} from '@angular/core';
 import {RoutedViewModelComponent} from '../../core/routed-ViewModel.component';
+import {Meta, Title} from '@angular/platform-browser';
 
 declare const $: any;
 
@@ -14,12 +15,28 @@ class InitialVMState {
 export class HistoriaComponent extends RoutedViewModelComponent {
   public vm: InitialVMState | any = new InitialVMState();
 
-  constructor(private _LocalInjector: Injector) {
+  constructor(private _LocalInjector: Injector,
+              private titleService: Title,
+              private meta: Meta) {
     super(_LocalInjector);
-  }
+    this.meta.addTag(
+      { name: 'description', content: 'Juan Pedro Van Hasselt abogado especialista en el campo de propiedad\n' +
+          'intelectual en temas de competencia, protección al consumidor y marcas.\n' }
+    );
 
+    this.meta.updateTag(
+      { name: 'description', content: 'Juan Pedro Van Hasselt abogado especialista en el campo de propiedad\n' +
+          'intelectual en temas de competencia, protección al consumidor y marcas.\n' },
+    );
+    const description = this.meta.getTag('name=description');
+    console.log(description.content);
+  }
+  public setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
+  }
   init() {
     this.renderSlider();
+    this.setTitle('Juan Pedro Van Hasselt Protección de Marcas | JP Van Hasselt');
   }
 
   renderSlider() {
