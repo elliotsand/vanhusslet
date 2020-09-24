@@ -10,10 +10,10 @@
                   allowfullscreen></iframe>
         </div>
         <div class="overlaybanner"></div>
-        <div class="caption lfb large-title tp-resizeme slidertext2" data-x="center" data-y="280" data-speed="600"
-             data-start="1000">{{ vm.content.home.slide2.text1 | CMS }}</div>
-        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="center" data-y="310" data-speed="600"
-             data-start="1600">{{ vm.content.home.slide2.text2 | CMS }}</div>
+        <h1><span class="caption lfb large-title tp-resizeme slidertext2" data-x="center" data-y="280" data-speed="600"
+             data-start="1000">{{ vm.content.home.slide2.text1 | CMS }}</span>
+        <span class="caption lfb large-title tp-resizeme slidertext1" data-x="center" data-y="310" data-speed="600"
+             data-start="1600">{{ vm.content.home.slide2.text2 | CMS }}</span></h1>
         <div class="caption lfb large-title tp-resizeme sliderbtn" data-x="center" data-y="400" data-speed="600"
              data-start="2200"><a routerLink="/contacto" class="section-btn">{{ vm.content.home.contactUs | CMS }}</a>
         </div>
@@ -27,7 +27,7 @@
 <div id="practicearea" class="parallax-section">
   <div class="container">
     <div class="section-title">
-      <h3>{{ vm.content.home.practicearea.h3 | CMS }}<span>{{ vm.content.home.practicearea.span | CMS }}</span></h3>
+      <h2>{{ vm.content.home.practicearea.h3 | CMS }}<span>{{ vm.content.home.practicearea.span | CMS }}</span></h2>
     </div>
     <div class="row">
       <div class="col-md-6 col-sm-6">
@@ -36,7 +36,7 @@
             <div class="thumb-img"><img src="/assets/images/lawyer/area3.jpeg" class="animate" alt=""></div>
           </a>
           <a class="areaLink" routerLink="/latam">
-            <h4>{{ vm.content.home.practicearea.practicearea1.h3 | CMS }}</h4>
+            <h3>{{ vm.content.home.practicearea.practicearea1.h3 | CMS }}</h3>
           </a>
           <p>{{ vm.content.home.practicearea.practicearea1.parr | CMS }}</p>
         </div>
@@ -49,7 +49,7 @@
             <div class="thumb-img"><img src="/assets/images/lawyer/area5.jpeg" class="animate" alt=""></div>
           </a>
           <a routerLink="/marcas">
-            <h4>{{ vm.content.home.practicearea.practicearea2.h3 | CMS }}</h4></a>
+            <h3>{{ vm.content.home.practicearea.practicearea2.h3 | CMS }}</h3></a>
           <p>{{ vm.content.home.practicearea.practicearea2.parr | CMS }}</p>
         </div>
 
@@ -62,7 +62,7 @@
 <div class="servicesbox bg1">
   <div class="container">
     <div class="section-title">
-      <h3>{{ vm.content.home.Tagline.h3 | CMS }}</h3>
+      <h2>{{ vm.content.home.Tagline.h3 | CMS }}</h2>
     </div>
     <div class="ctoggle">
       <p>{{ vm.content.home.Tagline.ctoggle | CMS }}</p>
@@ -74,8 +74,8 @@
 <!-- Tagline Section -->
 <div class="taglinewrap">
   <div class="container">
-    <h2>{{ vm.content.home.taglinewrap.h2 | CMS }}</h2>
-    <h3>{{ vm.content.home.taglinewrap.h3 | CMS }}</h3>
+    <p class="h2">{{ vm.content.home.taglinewrap.h2 | CMS }}</p>
+    <p class="h3">{{ vm.content.home.taglinewrap.h3 | CMS }}</p>
     <p>{{ vm.content.home.taglinewrap.p | CMS }}</p>
     <a href="/contacto"><i class="fa fa-phone" aria-hidden="true"></i> {{ vm.content.home.taglinewrap.a | CMS }}</a>
   </div>

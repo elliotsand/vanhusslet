@@ -149,7 +149,7 @@ a:hover, a:active, a:focus {
 	padding-bottom: 50px;
 	text-align: center;
 }
-.section-title h3 {
+.section-title h2 {
 	position: relative;
 	font-size: 40px;
 	margin-bottom: 50px;
@@ -157,7 +157,7 @@ a:hover, a:active, a:focus {
 	font-weight: 700;
 	line-height: 42px;
 }
-.section-title h3:after {
+.section-title h2:after {
 	content: '';
 	background: #db3636;
 	height: 2px;
@@ -167,7 +167,7 @@ a:hover, a:active, a:focus {
 	left: 50%;
 	margin-left: -30px;
 }
-.section-title h3:before {
+.section-title h2:before {
 	content: '';
 	background: #db3636;
 	height: 9px;
@@ -177,7 +177,7 @@ a:hover, a:active, a:focus {
 	left: 50%;
 	margin-left: -2px
 }
-.section-title h3 span {
+.section-title h2 span {
 	color: #db3636;
 	font-weight: 400;
 }
@@ -1446,7 +1446,7 @@ ul.orderlist li:before {
 	text-align:center;
 }
 .servicesbox .section-title{padding-bottom:10px;}
-.servicesbox .section-title h3{color:#fff;}
+.servicesbox .section-title h2{color:#fff;}
 .servicesbox p {
 	color: #fff;
 	font-size: 16px;
@@ -2072,12 +2072,12 @@ ul.orderlist li:before {
 	text-align: center;
 	padding: 50px 0;
 }
-.taglinewrap h2 {
+.taglinewrap p.h2 {
 	color: #fff;
 	margin-bottom: 10px;
 	font-size: 30px;
 }
-.taglinewrap h3 {
+.taglinewrap p.h3 {
 	color: #fff;
 	margin-bottom: 25px;
 	font-size: 40px;
@@ -2856,10 +2856,10 @@ blockquote:after {
     padding: 20px 0px;
 	min-height:300px;
 }
-.footer-lwf h3.footer-logo {
+.footer-lwf h4.footer-logo {
     margin-bottom: 20px;
 }
-.footer-lwf h3 {
+.footer-lwf h4 {
     color: #fff;
     margin-top: 0px;
     position: relative;
@@ -2867,7 +2867,7 @@ blockquote:after {
     font-size: 20px;
     margin-bottom: 40px;
 }
-.footer-lwf h3:before {
+.footer-lwf h4:before {
     position: absolute;
     display: block;
     height: 2px;
