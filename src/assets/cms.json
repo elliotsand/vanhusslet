@@ -22,6 +22,28 @@
         "en": "Contact"
       }
     },
+    "navigationUrl": {
+      "inicio": {
+        "es": "/",
+        "en": "/"
+      },
+      "biografia": {
+        "es": "/biografía",
+        "en": "/biography"
+      },
+      "marcas": {
+        "es": "/marcas",
+        "en": "/trademarks"
+      },
+      "infracciones": {
+        "es": "/latam",
+        "en": "/latam"
+      },
+      "contacto": {
+        "es": "/contacto",
+        "en": "/contact"
+      }
+    },
     "mensaje": {
       "es": "Gracias <br> Estaremos contactándonos contigo",
       "en": "Thanks <br> We will be contacting you"

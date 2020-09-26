@@ -34,6 +34,28 @@ export class DefaultLayoutComponent extends RoutedViewModelComponent {
             en: 'Contact'
           }
         },
+        navigationUrl: {
+          inicio: {
+            es: '/',
+            en: '/'
+          },
+          biografia: {
+            es: '/biografía',
+            en: '/biography'
+          },
+          marcas: {
+            es: '/marcas',
+            en: '/trademarks'
+          },
+          infracciones: {
+            es: '/latam',
+            en: '/latam'
+          },
+          contacto: {
+            es: '/contacto',
+            en: '/contact'
+          }
+        },
         horarios: {
           es: 'Horarios de Atención',
           en: 'Office Hours'
