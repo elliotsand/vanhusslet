@@ -1,12 +1,12 @@
 <urlset>
   <url>
-    <loc>https://www.jpvanhasselt.com/home</loc>
+    <loc>https://www.jpvanhasselt.com</loc>
     <lastmod>2020-03-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.jpvanhasselt.com/home</loc>
+    <loc>https://www.jpvanhasselt.com</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -23,6 +23,26 @@
   </url>
   <url>
     <loc>https://www.jpvanhasselt.com/contacto</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jpvanhasselt.com</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jpvanhasselt.com/biography</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jpvanhasselt.com/latam</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jpvanhasselt.com/trademarks</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jpvanhasselt.com/contact</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

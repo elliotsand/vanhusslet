@@ -8,19 +8,19 @@ const appRoutesEnglish: Routes = [
     loadChildren: () => import('./home/home.module').then(e => e.HomeModule)
   },
   {
-    path        : 'trademarks',
-    loadChildren: () => import('./socios/socios.module').then(e => e.SociosModule)
-  },
-  {
-    path        : 'biography',
+    path        : 'juan-pedro-van-hasselt',
     loadChildren: () => import('./historia/historia.module').then(e => e.HistoriaModule)
   },
   {
-    path        : 'latam',
+    path        : 'Trademark-protection',
+    loadChildren: () => import('./socios/socios.module').then(e => e.SociosModule)
+  },
+  {
+    path        : 'Trademarks-in-LATAM',
     loadChildren: () => import('./latam/latam.module').then(e => e.LatamModule)
   },
   {
-    path        : 'contact',
+    path        : 'contact-van-hasselt',
     loadChildren: () => import('./contacto/contacto.module').then(e => e.ContactoModule)
   }
 ];
@@ -31,19 +31,19 @@ const appRoutes: Routes = [
     loadChildren: () => import('./home/home.module').then(e => e.HomeModule)
   },
   {
-    path        : 'marcas',
-    loadChildren: () => import('./socios/socios.module').then(e => e.SociosModule)
-  },
-  {
-    path        : 'historia',
+    path        : 'juan-pedro-van-hasselt',
     loadChildren: () => import('./historia/historia.module').then(e => e.HistoriaModule)
   },
   {
-    path        : 'latam',
+    path        : 'proteccion-de-marcas-de-fabrica',
+    loadChildren: () => import('./socios/socios.module').then(e => e.SociosModule)
+  },
+  {
+    path        : 'proteccion-de-marcas-en-latam',
     loadChildren: () => import('./latam/latam.module').then(e => e.LatamModule)
   },
   {
-    path        : 'contacto',
+    path        : 'contactar-van-hasselt',
     loadChildren: () => import('./contacto/contacto.module').then(e => e.ContactoModule)
   },
   ...appRoutesEnglish,

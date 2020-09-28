@@ -50,10 +50,10 @@
     <div class="row">
       <div class="col-md-6 col-sm-6">
         <div class="service-thumb">
-          <a class="areaLink" routerLink="/latam">
+          <a class="areaLink" [routerLink]='vm.content.global.navigationUrl.infracciones | CMS '>
             <div class="thumb-img"><img src="/assets/images/lawyer/area3.jpeg" class="animate" alt=""></div>
           </a>
-          <a class="areaLink" routerLink="/latam">
+          <a class="areaLink" [routerLink]='vm.content.global.navigationUrl.infracciones | CMS '>
             <h3>{{ vm.content.home.practicearea.practicearea1.h3 | CMS }}</h3>
           </a>
           <p>{{ vm.content.home.practicearea.practicearea1.parr | CMS }}</p>
@@ -63,10 +63,10 @@
       <div class="col-md-6 col-sm-6">
         <div class="service-thumb">
 
-          <a routerLink="/marcas">
+          <a [routerLink]='vm.content.global.navigationUrl.marcas | CMS '>
             <div class="thumb-img"><img src="/assets/images/lawyer/area5.jpeg" class="animate" alt=""></div>
           </a>
-          <a routerLink="/marcas">
+          <a [routerLink]='vm.content.global.navigationUrl.marcas | CMS '>
             <h3>{{ vm.content.home.practicearea.practicearea2.h3 | CMS }}</h3></a>
           <p>{{ vm.content.home.practicearea.practicearea2.parr | CMS }}</p>
         </div>

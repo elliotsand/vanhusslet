@@ -40,16 +40,16 @@ export class DefaultLayoutComponent extends RoutedViewModelComponent {
             en: '/'
           },
           biografia: {
-            es: '/biografía',
-            en: '/biography'
+            es: '/juan-pedro-van-hasselt',
+            en: '/juan-pedro-van-hasselt'
           },
           marcas: {
-            es: '/marcas',
-            en: '/trademarks'
+            es: '/proteccion-de-marcas-de-fabrica',
+            en: '/Trademark-protection'
           },
           infracciones: {
-            es: '/latam',
-            en: '/latam'
+            es: '/proteccion-de-marcas-en-latam',
+            en: '/Trademarks-in-LATAM'
           },
           contacto: {
             es: '/contacto',
