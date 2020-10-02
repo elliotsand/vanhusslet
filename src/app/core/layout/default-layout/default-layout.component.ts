@@ -21,17 +21,39 @@ export class DefaultLayoutComponent extends RoutedViewModelComponent {
             es: 'Biografía',
             en: 'Biography'
           },
-          marcas: {
+          latam: {
             es: 'Marcas en LATAM',
             en: ' Trademarks in LATAM'
           },
           infracciones: {
-            es: 'Infracciones de marca',
-            en: 'Trademark Infringements'
+            es: 'Protección de marcas de fábrica',
+            en: 'Trademark protection'
           },
           contacto: {
             es: 'Contacto',
             en: 'Contact'
+          }
+        },
+        navigationUrl: {
+          inicio: {
+            es: '/',
+            en: '/'
+          },
+          biografia: {
+            es: '/juan-pedro-van-hasselt',
+            en: '/juan-pedro-van-hasselt'
+          },
+          infracciones: {
+            es: '/proteccion-de-marcas-de-fabrica',
+            en: '/Trademark-protection'
+          },
+          latam: {
+            es: '/proteccion-de-marcas-en-latam',
+            en: '/Trademarks-in-LATAM'
+          },
+          contacto: {
+            es: '/contacto',
+            en: '/contact'
           }
         },
         horarios: {

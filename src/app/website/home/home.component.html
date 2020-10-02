@@ -4,74 +4,132 @@
     <ul>
       <li data-slotamount="7" data-transition="fade" data-masterspeed="1000" data-saveperformance="on">
         <div class="cont-iframe">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RQU9rnBJKV0?rel=0&controls=0&loop=1&autoplay=1&html5=1&&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="100%"
+                  src="https://www.youtube.com/embed/RQU9rnBJKV0?rel=0&controls=0&loop=1&autoplay=1&html5=1&&mute=1"
+                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
         </div>
         <div class="overlaybanner"></div>
-        <div class="caption lfb large-title tp-resizeme slidertext2" data-x="center" data-y="280" data-speed="600"
-             data-start="1000">{{ vm.content.home.slide2.text1 | CMS }}</div>
-        <div class="caption lfb large-title tp-resizeme slidertext1" data-x="center" data-y="310" data-speed="600"
-             data-start="1600">{{ vm.content.home.slide2.text2 | CMS }}</div>
+        <h1><span class="caption lfb large-title tp-resizeme slidertext2" data-x="center" data-y="280" data-speed="600"
+                  data-start="1000">{{ vm.content.home.slide2.text1 | CMS }}</span>
+          <span class="caption lfb large-title tp-resizeme slidertext1" data-x="center" data-y="310" data-speed="600"
+                data-start="1600">{{ vm.content.home.slide2.text2 | CMS }}</span></h1>
         <div class="caption lfb large-title tp-resizeme sliderbtn" data-x="center" data-y="400" data-speed="600"
-             data-start="2200"><a routerLink="/contacto" class="section-btn">{{ vm.content.home.contactUs | CMS }}</a></div>
+             data-start="2200"><a routerLink="/contacto" class="section-btn">{{ vm.content.home.contactUs | CMS }}</a>
+        </div>
       </li>
     </ul>
   </div>
 </div>
 <!-- Revolution slider end -->
 
+<div class="howitwrap" id="about">
+  <div class="fullimg" style="background-image:url(/assets/images/vhjp.jpg)"></div>
+  <div class="stcontent">
 
-<!-- Practice Areas section
+    <!-- title start -->
+    <div class="section-title">
+      <h2>{{ vm.content.home.about.text1 | CMS }} <span> {{ vm.content.home.about.textspan1 | CMS }}</span></h2>
+      <p [innerHTML]="vm.content.home.about.text2 | CMS">
+
+      </p>
+    </div>
+    <!-- title end -->
+
+
+  </div>
+  <div class="clearfix"></div>
+</div>
+
+
 <div id="practicearea" class="parallax-section">
   <div class="container">
     <div class="section-title">
-      <h3>{{ vm.content.home.practicearea.h3 | CMS }}<span>{{ vm.content.home.practicearea.span | CMS }}</span></h3>
-      <p>{{ vm.content.home.practicearea.parr | CMS }}</p>
+      <h2>{{ vm.content.home.practicearea.h3 | CMS }}<span>{{ vm.content.home.practicearea.span | CMS }}</span></h2>
     </div>
     <div class="row">
       <div class="col-md-6 col-sm-6">
-        <a routerLink="/marcas">
-          <div class="service-thumb">
+        <div class="service-thumb">
+          <a class="areaLink" [routerLink]='vm.content.global.navigationUrl.infracciones | CMS '>
             <div class="thumb-img"><img src="/assets/images/lawyer/area3.jpeg" class="animate" alt=""></div>
-            <h4>{{ vm.content.home.practicearea.practicearea1.h3 | CMS }}</h4>
-            <p>{{ vm.content.home.practicearea.practicearea1.parr | CMS }}</p>
-          </div>
-        </a>
+          </a>
+          <a class="areaLink" [routerLink]='vm.content.global.navigationUrl.infracciones | CMS '>
+            <h3>{{ vm.content.home.practicearea.practicearea1.h3 | CMS }}</h3>
+          </a>
+          <p>{{ vm.content.home.practicearea.practicearea1.parr | CMS }}</p>
+        </div>
+
       </div>
       <div class="col-md-6 col-sm-6">
-        <a routerLink="/marcas">
-          <div class="service-thumb">
+        <div class="service-thumb">
+
+          <a [routerLink]='vm.content.global.navigationUrl.latam | CMS '>
             <div class="thumb-img"><img src="/assets/images/lawyer/area5.jpeg" class="animate" alt=""></div>
-            <h4>{{ vm.content.home.practicearea.practicearea2.h3 | CMS }}</h4>
-            <p>{{ vm.content.home.practicearea.practicearea2.parr | CMS }}</p>
-          </div>
-        </a>
+          </a>
+          <a [routerLink]='vm.content.global.navigationUrl.latam | CMS '>
+            <h3>{{ vm.content.home.practicearea.practicearea2.h3 | CMS }}</h3></a>
+          <p>{{ vm.content.home.practicearea.practicearea2.parr | CMS }}</p>
+        </div>
+
       </div>
     </div>
   </div>
-</div>-->
+</div>
 
 <!-- Tagline -->
 <div class="servicesbox bg1">
   <div class="container">
     <div class="section-title">
-      <h3>{{ vm.content.home.Tagline.h3 | CMS }}</h3>
+      <h2>{{ vm.content.home.Tagline.h3 | CMS }}</h2>
     </div>
     <div class="ctoggle">
       <p>{{ vm.content.home.Tagline.ctoggle | CMS }}</p>
       <a href="/latam" class="readmore">{{ vm.content.home.Tagline.readmore | CMS }}<i class="fa fa-long-arrow-right"
-                                                                                  aria-hidden="true"></i></a></div>
+                                                                                       aria-hidden="true"></i></a></div>
   </div>
 </div>
 
 <!-- Tagline Section -->
 <div class="taglinewrap">
   <div class="container">
-    <h2>{{ vm.content.home.taglinewrap.h2 | CMS }}</h2>
-    <h3>{{ vm.content.home.taglinewrap.h3 | CMS }}</h3>
+    <p class="h2">{{ vm.content.home.taglinewrap.h2 | CMS }}</p>
+    <p class="h3">{{ vm.content.home.taglinewrap.h3 | CMS }}</p>
     <p>{{ vm.content.home.taglinewrap.p | CMS }}</p>
-    <a href="/contacto"><i class="fa fa-phone" aria-hidden="true"></i> {{ vm.content.home.taglinewrap.a | CMS }}</a></div>
+    <a href="/contacto"><i class="fa fa-phone" aria-hidden="true"></i> {{ vm.content.home.taglinewrap.a | CMS }}</a>
+  </div>
 </div>
 
 
+<div class="innerpgWraper">
+  <div class="container">
+    <ul class="testimonials row">
+      <li class="col-md-6">
+        <div class="int">
+          <p>{{ vm.content.testimonio.test1 | CMS }}</p>
+        </div>
+        <div class="clientinfo"><strong>{{ vm.content.testimonio.autor1 | CMS }}</strong></div>
+      </li>
+      <li class="col-md-6">
+        <div class="int">
+          <p>{{ vm.content.testimonio.test2 | CMS }}</p>
+        </div>
+        <div class="clientinfo"><strong>{{ vm.content.testimonio.autor2 | CMS }}</strong></div>
+      </li>
+      <li class="col-md-6">
+        <div class="int">
+          <p>{{ vm.content.testimonio.test3 | CMS }}</p>
+        </div>
+        <div class="clientinfo"><strong>{{ vm.content.testimonio.autor3 | CMS }}</strong></div>
+      </li>
+      <li class="col-md-6">
+        <div class="int">
+          <p>{{ vm.content.testimonio.test4 | CMS }}</p>
+        </div>
+        <div class="clientinfo"><strong>{{ vm.content.testimonio.autor4 | CMS }}</strong></div>
+      </li>
+
+    </ul>
+  </div>
+</div>
 <!-- Footer Section -->
 

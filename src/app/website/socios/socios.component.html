@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-        <h1 class="page-heading">{{ vm.content.infracciones.title | CMS }}</h1>
+        <h1 class="page-heading">{{ vm.content.infracciones.titlepage | CMS }}</h1>
       </div>
     </div>
   </div>
@@ -14,6 +14,7 @@
 <div class="work">
   <div class="row">
     <div class="col-md-12 col-sm-12">
+      <h2>{{ vm.content.infracciones.title | CMS }}</h2>
       <p [innerHtml]=" vm.content.infracciones.apertura | CMS "></p>
     </div>
   </div>
