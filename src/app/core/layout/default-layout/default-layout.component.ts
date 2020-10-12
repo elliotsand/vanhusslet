@@ -52,8 +52,8 @@ export class DefaultLayoutComponent extends RoutedViewModelComponent {
             en: '/Trademarks-in-LATAM'
           },
           contacto: {
-            es: '/contacto',
-            en: '/contact'
+            es: 'contactar-van-hasselt',
+            en: 'contact-van-hasselt'
           }
         },
         horarios: {
