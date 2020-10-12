@@ -84,7 +84,7 @@
     </div>
     <div class="ctoggle">
       <p>{{ vm.content.home.Tagline.ctoggle | CMS }}</p>
-      <a href="/latam" class="readmore">{{ vm.content.home.Tagline.readmore | CMS }}<i class="fa fa-long-arrow-right"
+      <a [routerLink]='vm.content.global.navigationUrl.latam | CMS ' class="readmore">{{ vm.content.home.Tagline.readmore | CMS }}<i class="fa fa-long-arrow-right"
                                                                                        aria-hidden="true"></i></a></div>
   </div>
 </div>
@@ -95,7 +95,7 @@
     <p class="h2">{{ vm.content.home.taglinewrap.h2 | CMS }}</p>
     <p class="h3">{{ vm.content.home.taglinewrap.h3 | CMS }}</p>
     <p>{{ vm.content.home.taglinewrap.p | CMS }}</p>
-    <a href="/contacto"><i class="fa fa-phone" aria-hidden="true"></i> {{ vm.content.home.taglinewrap.a | CMS }}</a>
+    <a [routerLink]='vm.content.global.navigationUrl.contacto | CMS '><i class="fa fa-phone" aria-hidden="true"></i> {{ vm.content.home.taglinewrap.a | CMS }}</a>
   </div>
 </div>
 
